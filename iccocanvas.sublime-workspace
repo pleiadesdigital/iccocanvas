@@ -206,14 +206,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/header"
-	],
 	"file_history":
 	[
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/b-layout/_base.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/header.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/header/site-branding.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/functions.php",
@@ -224,7 +219,6 @@
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/page/content-page.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/home.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_3mq-footer.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/b-layout/_base.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/footer/site-info.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/style.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-config.php",
@@ -403,7 +397,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

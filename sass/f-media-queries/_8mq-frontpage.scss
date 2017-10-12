@@ -1,5 +1,38 @@
 @include breakpoint($movil) { //20em 320px
-
+	.pleiadesmoon-front-page {
+		//GENERIC
+		.fpsection {
+		h2 {
+		text-transform: uppercase;
+		} //h2
+		p {
+		font-weight: $thin;
+		font-size: 15px;
+		font-size: 0.9365rem;
+		}
+		} //.fpsection
+		// PROJECT
+		#project {
+		background-color: #74AECC;
+		padding: 4em 2em;
+		} //#project
+		// MEDIA 
+		#media {
+		background-color: #7FB25A;
+		padding: 4em 2em;
+		}
+		// EVENTS
+		#events {
+		background-color: #35ACB2;
+		padding: 4em 2em;
+		} //#events
+		// CANVAS 
+		#canvas {
+		background-color: #CC0066;
+		padding: 4em 2em;
+		} //#canvas
+	} //.pleiadesmoon-front-page
+ 
 } //breakpoint($movil) 20em 320px
 
 
@@ -21,6 +54,7 @@
 
 
 @include breakpoint($laptop) { //48em 768px
+	// ORIGINAL STYLES
 	/* Front Page */
 	.pleiadesmoon-front-page.has-header-image .site-branding,
 	.pleiadesmoon-front-page.has-header-video .site-branding,
@@ -93,6 +127,14 @@
 		font-size: 26px;
 		font-size: 1.625rem;
 	}
+
+	// GENERIC
+	.fpwrap {
+		@include container();
+	}
+
+
+
 } //breakpoint($laptop) 48em 768px
 
 

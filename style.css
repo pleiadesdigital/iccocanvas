@@ -854,7 +854,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 /* line 48, sass/b-layout/_front-page.scss */
 .pleiadesmoon-panel .edit-link {
   display: block;
-  margin: 0.3em 0 0;
+  margin: 0.3em 0px 0px;
 }
 
 /* line 53, sass/b-layout/_front-page.scss */
@@ -4016,31 +4016,63 @@ F. Media Queries
     margin-bottom: 2em;
   }
 }
+@media (min-width: 320px) {
+  /* line 5, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page .fpsection h2 {
+    text-transform: uppercase;
+  }
+  /* line 8, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page .fpsection p {
+    font-weight: 200;
+    font-size: 15px;
+    font-size: 0.9365rem;
+  }
+  /* line 15, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #project {
+    background-color: #74AECC;
+    padding: 4em 2em;
+  }
+  /* line 20, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #media {
+    background-color: #7FB25A;
+    padding: 4em 2em;
+  }
+  /* line 25, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #events {
+    background-color: #35ACB2;
+    padding: 4em 2em;
+  }
+  /* line 30, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #canvas {
+    background-color: #CC0066;
+    padding: 4em 2em;
+  }
+}
 @media (min-width: 480px) {
-  /* line 7, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 40, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 2em;
     padding-top: 3.5em;
   }
 
-  /* line 11, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 44, sass/f-media-queries/_8mq-frontpage.scss */
   .page-one-column .panel-content .wrap {
     max-width: 740px;
   }
 
-  /* line 14, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 47, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .entry-header {
     margin-bottom: 4.5em;
   }
 
-  /* line 17, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 50, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
   /* Front Page */
-  /* line 25, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 59, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .site-branding,
   .pleiadesmoon-front-page.has-header-video .site-branding,
   .home.blog.has-header-image .site-branding,
@@ -4049,7 +4081,7 @@ F. Media Queries
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-  /* line 32, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 66, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .custom-header-media,
   .pleiadesmoon-front-page.has-header-video .custom-header-media,
   .home.blog.has-header-image .custom-header-media,
@@ -4060,7 +4092,7 @@ F. Media Queries
     overflow: hidden;
   }
 
-  /* line 41, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 75, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .custom-header-media:before,
   .pleiadesmoon-front-page.has-header-video .custom-header-media:before,
   .home.blog.has-header-image .custom-header-media:before,
@@ -4068,7 +4100,7 @@ F. Media Queries
     height: 33%;
   }
 
-  /* line 47, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 81, sass/f-media-queries/_8mq-frontpage.scss */
   .admin-bar.pleiadesmoon-front-page.has-header-image .custom-header-media,
   .admin-bar.pleiadesmoon-front-page.has-header-video .custom-header-media,
   .admin-bar.home.blog.has-header-image .custom-header-media,
@@ -4076,50 +4108,50 @@ F. Media Queries
     height: calc(100vh - 32px);
   }
 
-  /* line 53, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 87, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em;
   }
 
-  /* line 57, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 91, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-image {
     height: 100vh;
     max-height: 1200px;
   }
 
   /* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
-  /* line 62, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 96, sass/f-media-queries/_8mq-frontpage.scss */
   .background-fixed .panel-image {
     background-attachment: fixed;
   }
 
-  /* line 65, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 99, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .entry-header {
     float: left;
     width: 36%;
   }
 
-  /* line 69, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 103, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .entry-content {
     float: right;
     width: 58%;
   }
 
   /* Front Page - Recent Posts */
-  /* line 74, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 108, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .recent-posts {
     clear: right;
     float: right;
     width: 58%;
   }
 
-  /* line 79, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 113, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts article {
     margin-bottom: 4em;
   }
 
-  /* line 82, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 116, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header,
   .page-two-column #primary .panel-content .recent-posts .entry-header,
   .panel-content .recent-posts .entry-content,
@@ -4128,15 +4160,28 @@ F. Media Queries
     width: 100%;
   }
 
-  /* line 89, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 123, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 1.5em;
   }
 
-  /* line 92, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 126, sass/f-media-queries/_8mq-frontpage.scss */
   .page .panel-content .recent-posts .entry-title {
     font-size: 26px;
     font-size: 1.625rem;
+  }
+
+  /* line 132, sass/f-media-queries/_8mq-frontpage.scss */
+  .fpwrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .fpwrap:after {
+    content: " ";
+    display: block;
+    clear: both;
   }
 }
 @media (min-width: 320px) {

@@ -4,7 +4,7 @@
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 
-		<div id="post-<?php the_ID(); ?>" <?php post_class('pleiadesmoon-panel '); ?> >
+		<div <?php post_class('pleiadesmoon-front-page'); ?> >
 
 			<!-- EL PROYECTO -->
 			<section id="project" class="fpsection">

@@ -280,6 +280,8 @@ function pleiadesmoon_scripts() {
 	wp_enqueue_script('pleiadesmoon-global', get_theme_file_uri('/assets/js/global.js'), array('jquery'), '1.0', true);
 
 	wp_enqueue_script('jquery-scrollto', get_theme_file_uri('/assets/js/jquery.scrollTo.js'), array('jquery'), '2.1.2', true);
+	
+	wp_enqueue_script('pleiadesmoon-app', get_theme_file_uri('/assets/js/app.js'), array('jquery'), '1.0', true);
 
 	wp_localize_script('pleiadesmoon-skip-link-focus-fix', 'pleiadesmoonScreenReaderText', $pleiadesmoon_l10n );
 
