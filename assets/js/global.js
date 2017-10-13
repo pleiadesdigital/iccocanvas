@@ -28,10 +28,10 @@
 	// Ensure the sticky navigation doesn't cover current focused links.
 	$( 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex], [contenteditable]', '.site-content-contain' ).filter( ':visible' ).focus( function() {
 		if ( $navigation.hasClass( 'site-navigation-fixed' ) ) {
-			var windowScrollTop = $( window ).scrollTop(),
-				fixedNavHeight = $navigation.height(),
-				itemScrollTop = $( this ).offset().top,
-				offsetDiff = itemScrollTop - windowScrollTop;
+			var windowScrollTop = $( window ).scrollTop();
+			var fixedNavHeight = $navigation.height();
+			var	itemScrollTop = $( this ).offset().top;
+			var offsetDiff = itemScrollTop - windowScrollTop;
 
 			// Account for Admin bar.
 			if ( $( '#wpadminbar' ).length ) {
@@ -41,7 +41,8 @@
 			if ( offsetDiff < fixedNavHeight ) {
 				$( window ).scrollTo( itemScrollTop - ( fixedNavHeight + 50 ), 0 );
 			}
-		}
+
+		} // hasClass('site-navigation-fixed')
 	});
 
 	// Set properties of navigation.

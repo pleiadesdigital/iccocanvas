@@ -13,23 +13,31 @@
 		} //.fpsection
 		// PROJECT
 		#project {
-		background-color: #74AECC;
-		padding: 4em 2em;
+			background-color: #74AECC;
+			.project-wrap {
+				padding: 4em 2em;
+			} //.project-wrap
 		} //#project
 		// MEDIA 
 		#media {
-		background-color: #7FB25A;
-		padding: 4em 2em;
-		}
+			background-color: #7FB25A;
+			.media-wrap {
+				padding: 4em 2em;
+			} //.media-wrap
+		} //#media
 		// EVENTS
 		#events {
-		background-color: #35ACB2;
-		padding: 4em 2em;
+			background-color: #35ACB2;
+			.events-wrap {
+				padding: 4em 2em;
+			} //.events-wrap		
 		} //#events
 		// CANVAS 
 		#canvas {
-		background-color: #CC0066;
-		padding: 4em 2em;
+			background-color: #CC0066;
+			.canvas-wrap {
+				padding: 4em 2em;
+			} //.canvas-wrap 	
 		} //#canvas
 	} //.pleiadesmoon-front-page
  
@@ -131,6 +139,9 @@
 	// GENERIC
 	.fpwrap {
 		@include container();
+	}
+	.shifted {
+		
 	}
 
 

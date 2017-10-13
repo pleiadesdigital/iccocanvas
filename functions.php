@@ -250,8 +250,8 @@ function pleiadesmoon_scripts() {
 	// Google Maps
 	wp_enqueue_script('pleiades17-googlemaps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDjEcnBmAHgm_LfegO9o84NLPAfBLwVjSY', array(), '20161130', true);
 	// FlexSlider CSS & JS
-	wp_enqueue_style('flexslider-css', get_template_directory_uri() . '/assets/css/flexslider.css');
-	wp_enqueue_script('flexslider-js', get_template_directory_uri() . '/assets/js/jquery.flexslider-min.js', array('jquery'), '', true);
+	/*wp_enqueue_style('flexslider-css', get_template_directory_uri() . '/assets/css/flexslider.css');
+	wp_enqueue_script('flexslider-js', get_template_directory_uri() . '/assets/js/jquery.flexslider-min.js', array('jquery'), '', true);*/
 	// Load IE9 stylesheet, to fix display issues in the Customizer
 	if (is_customize_preview()) {
 		wp_enqueue_style('pleiadesmoon-ie9', get_theme_file_uri('/assets/css/ie9.css' ), array( 'pleiadesmoon-style'), '1.0');

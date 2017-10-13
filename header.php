@@ -24,14 +24,5 @@
 			<?php endif; ?>
 		</header><!-- #masthead -->
 
-		<?php
-		// If a regular post or page, and not the front page, show the featured image
-		if (has_post_thumbnail() && (is_single() || (is_page() &&!pleiadesmoon_is_frontpage()))) :
-			echo '<div class="single-featured-image-header">';
-			the_post_thumbnail('pleiadesmoon-featured-image');
-			echo '</div><!-- .single-featured-image-header -->';
-		endif;
-		?>
-
 		<div class="site-content-contain">
 			<div id="content" class="site-content">

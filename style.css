@@ -4030,49 +4030,61 @@ F. Media Queries
   /* line 15, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project {
     background-color: #74AECC;
+  }
+  /* line 17, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #project .project-wrap {
     padding: 4em 2em;
   }
-  /* line 20, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 22, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media {
     background-color: #7FB25A;
+  }
+  /* line 24, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #media .media-wrap {
     padding: 4em 2em;
   }
-  /* line 25, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 29, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #events {
     background-color: #35ACB2;
+  }
+  /* line 31, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #events .events-wrap {
     padding: 4em 2em;
   }
-  /* line 30, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 36, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas {
     background-color: #CC0066;
+  }
+  /* line 38, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #canvas .canvas-wrap {
     padding: 4em 2em;
   }
 }
 @media (min-width: 480px) {
-  /* line 40, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 48, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 2em;
     padding-top: 3.5em;
   }
 
-  /* line 44, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 52, sass/f-media-queries/_8mq-frontpage.scss */
   .page-one-column .panel-content .wrap {
     max-width: 740px;
   }
 
-  /* line 47, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 55, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .entry-header {
     margin-bottom: 4.5em;
   }
 
-  /* line 50, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 58, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 0;
   }
 }
 @media (min-width: 768px) {
   /* Front Page */
-  /* line 59, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 67, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .site-branding,
   .pleiadesmoon-front-page.has-header-video .site-branding,
   .home.blog.has-header-image .site-branding,
@@ -4081,7 +4093,7 @@ F. Media Queries
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-  /* line 66, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 74, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .custom-header-media,
   .pleiadesmoon-front-page.has-header-video .custom-header-media,
   .home.blog.has-header-image .custom-header-media,
@@ -4092,7 +4104,7 @@ F. Media Queries
     overflow: hidden;
   }
 
-  /* line 75, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 83, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page.has-header-image .custom-header-media:before,
   .pleiadesmoon-front-page.has-header-video .custom-header-media:before,
   .home.blog.has-header-image .custom-header-media:before,
@@ -4100,7 +4112,7 @@ F. Media Queries
     height: 33%;
   }
 
-  /* line 81, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 89, sass/f-media-queries/_8mq-frontpage.scss */
   .admin-bar.pleiadesmoon-front-page.has-header-image .custom-header-media,
   .admin-bar.pleiadesmoon-front-page.has-header-video .custom-header-media,
   .admin-bar.home.blog.has-header-image .custom-header-media,
@@ -4108,50 +4120,50 @@ F. Media Queries
     height: calc(100vh - 32px);
   }
 
-  /* line 87, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 95, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em;
   }
 
-  /* line 91, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 99, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-image {
     height: 100vh;
     max-height: 1200px;
   }
 
   /* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
-  /* line 96, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 104, sass/f-media-queries/_8mq-frontpage.scss */
   .background-fixed .panel-image {
     background-attachment: fixed;
   }
 
-  /* line 99, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 107, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .entry-header {
     float: left;
     width: 36%;
   }
 
-  /* line 103, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 111, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .entry-content {
     float: right;
     width: 58%;
   }
 
   /* Front Page - Recent Posts */
-  /* line 108, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 116, sass/f-media-queries/_8mq-frontpage.scss */
   .page-two-column .panel-content .recent-posts {
     clear: right;
     float: right;
     width: 58%;
   }
 
-  /* line 113, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 121, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts article {
     margin-bottom: 4em;
   }
 
-  /* line 116, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 124, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header,
   .page-two-column #primary .panel-content .recent-posts .entry-header,
   .panel-content .recent-posts .entry-content,
@@ -4160,18 +4172,18 @@ F. Media Queries
     width: 100%;
   }
 
-  /* line 123, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 131, sass/f-media-queries/_8mq-frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 1.5em;
   }
 
-  /* line 126, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 134, sass/f-media-queries/_8mq-frontpage.scss */
   .page .panel-content .recent-posts .entry-title {
     font-size: 26px;
     font-size: 1.625rem;
   }
 
-  /* line 132, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 140, sass/f-media-queries/_8mq-frontpage.scss */
   .fpwrap {
     max-width: 1000px;
     margin-left: auto;
