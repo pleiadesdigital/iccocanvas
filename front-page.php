@@ -5,7 +5,8 @@
 	<main id="main" class="site-main" role="main">
 
 		<div <?php post_class('pleiadesmoon-front-page'); ?> >
-
+			<!-- testing the up button -->
+			<button id="myBtn" title="Go to top">Top</button>
 			<!-- EL PROYECTO -->
 			<section id="project" class="fpsection">
 			  <div class="fpwrap project-wrap">

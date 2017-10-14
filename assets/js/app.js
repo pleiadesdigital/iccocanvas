@@ -27,8 +27,31 @@ jQuery(document).ready(function($){
         }
       }
     });
-
   });
+
+  // Scroll toTopButton button
+  var myButton = $('#myBtn');
+  window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById('myBtn').style.display = "block";
+    } else {
+      document.getElementById('myBtn').style.display = "none";
+    }
+  };  
+
+
+  $("#myBtn").click(function(e) {
+    e.preventDefault();
+    $(window).animate({scrollTop: 0}, 600, 'swing', function(){ 
+      
+    });
+  });
+
+
 
 }); //jQuery setup
 
