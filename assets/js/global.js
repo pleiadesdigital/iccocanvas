@@ -186,7 +186,7 @@
 		}
 
 		// If 'Scroll Down' arrow in present on page, calculate scroll offset and bind an event handler to the click event.
-		if ( $menuScrollDown.length ) {
+		/*if ( $menuScrollDown.length ) {
 
 			if ( $( 'body' ).hasClass( 'admin-bar' ) ) {
 				menuTop -= 32;
@@ -205,7 +205,7 @@
 					offset: { top: menuTop - navigationOuterHeight }
 				});
 			});
-		}
+		}*/
 
 		adjustHeaderHeight();
 		setQuotesIcon();

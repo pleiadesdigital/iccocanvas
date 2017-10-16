@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
-  // code from Morten... 
-  var stickyNavTop = $('.main-navigation').offset().top; // function detects when item hits the top
+  // code from Morten...
+  /*var stickyNavTop = $('.main-navigation').offset().top; // function detects when item hits the top
 
   $(window).scroll(function(){
 
@@ -11,9 +11,9 @@ jQuery(document).ready(function($){
     } else {
       $('.fpsection').removeClass('shifted');
     }
-  });
+  });*/
 
-  // Simple scrolling effect  
+  // Simple scrolling effect
  $(function(){
     $('a[href*=#]:not([href=#])').click(function(){
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -41,13 +41,13 @@ jQuery(document).ready(function($){
     } else {
       document.getElementById('myBtn').style.display = "none";
     }
-  };  
+  };
 
 
   $("#myBtn").click(function(e) {
     e.preventDefault();
-    $(window).animate({scrollTop: 0}, 600, 'swing', function(){ 
-      
+    $(window).animate({scrollTop: 0}, 600, 'swing', function(){
+
     });
   });
 
@@ -55,7 +55,7 @@ jQuery(document).ready(function($){
 
 }); //jQuery setup
 
-  
+
 
 
 
