@@ -42,8 +42,12 @@
 		top: 2em;
 	}
 	.site-header .navigation-top .menu-scroll-down {
-		color: #767676;
+		color: $snow;
 		top: 0.7em;
+		&:hover,
+		&:focus {
+			color: $orange;
+		}
 	}
 	.menu-scroll-down:focus {
 		outline: thin dotted;

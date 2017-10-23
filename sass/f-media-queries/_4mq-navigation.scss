@@ -29,6 +29,7 @@
 		margin-left: -1.25em;
 	}
 	.site-navigation-fixed.navigation-top {
+		background-color: rgba($black, 0.9);
 		bottom: auto;
 		position: fixed;
 		left: 0;
@@ -74,7 +75,7 @@
 	}
 	.main-navigation ul ul {
 		background: #fff;
-		border: 1px solid #bbb;
+		// border: 1px solid #bbb;
 		left: -999em;
 		padding: 0;
 		position: absolute;

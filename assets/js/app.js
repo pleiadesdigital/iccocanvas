@@ -51,6 +51,9 @@ jQuery(document).ready(function($){
     });
   });
 
+ // FULL HEIGHT
+ /*var wheight = $(window).height();
+ $('.fpimage').css('height', wheight);*/
 
 
 }); //jQuery setup

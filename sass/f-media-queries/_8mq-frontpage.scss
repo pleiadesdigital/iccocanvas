@@ -1,4 +1,11 @@
 @include breakpoint($movil) { //20em 320px
+	// GENERIC
+	.background-image {
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	} //.background-image
 	.pleiadesmoon-front-page {
 		//GENERIC
 		.fpsection {
@@ -6,7 +13,7 @@
 				text-transform: uppercase;
 			} //h2
 			p {
-				font-weight: $thin;
+				font-weight: $light;
 				font-size: 15px;
 				font-size: 0.9365rem;
 			}
@@ -18,34 +25,34 @@
 
 		// PROJECT
 		#project {
-			background-color: #74AECC;
+			// background-color: #74AECC;
 			.project-wrap {
-				padding: 4em 2em;
+				// padding: 4em 2em;
 			} //.project-wrap
 		} //#project
-		// MEDIA 
+		// MEDIA
 		#media {
-			background-color: #7FB25A;
+			background-color: $snow;
 			.media-wrap {
-				padding: 4em 2em;
+				padding: 5em 2em;
 			} //.media-wrap
 		} //#media
 		// EVENTS
 		#events {
-			background-color: #35ACB2;
+			background-color: $white;
 			.events-wrap {
-				padding: 4em 2em;
-			} //.events-wrap		
+				padding: 5em 2em;
+			} //.events-wrap
 		} //#events
-		// CANVAS 
+		// CANVAS
 		#canvas {
-			background-color: #CC0066;
+			background-color: $snow;
 			.canvas-wrap {
-				padding: 4em 2em;
-			} //.canvas-wrap 	
+				padding: 5em 2em;
+			} //.canvas-wrap
 		} //#canvas
 	} //.pleiadesmoon-front-page
- 
+
 } //breakpoint($movil) 20em 320px
 
 @include breakpoint($tablet) { //30em 480px
@@ -72,7 +79,7 @@
 	.pleiadesmoon-front-page.has-header-video .site-branding,
 	.home.blog.has-header-image .site-branding,
 	.home.blog.has-header-video .site-branding {
-		margin-bottom: 1em !important;
+		margin-bottom: 0px !important;
 		background-color: rgba(0, 0, 0, 0.3);
 	}
 	.pleiadesmoon-front-page.has-header-image .custom-header-media,
@@ -139,6 +146,7 @@
 		font-size: 26px;
 		font-size: 1.625rem;
 	}
+
 	// GENERIC
 	.fpwrap {
 		@include container();
@@ -153,18 +161,414 @@
 			z-index: 99;
 			border: none;
 			outline: none;
-			background-color: #55417F; 
+			background-color: $carbon;
 			color: $white;
 			cursor: pointer;
-			padding: 15px;
-			border-radius: 10px;
+			padding: 10px;
+			@include border-radius(4px);
+			.icon-arrow-right {
+				font-weight: 100;
+				-webkit-transform: rotate(270deg);
+		    -ms-transform: rotate(270deg);
+		    transform: rotate(270deg);
+			} //.icon-arrow-right
 			&:hover {
-				background-color: MediumPurple;
+				color: $orange;
 			} //&:hover
 		} //.toptobutton
 	} //.pleiadesmoon-front-page
-	
-	
+
+	/* CONTENT */
+
+	.pleiadesmoon-front-page {
+		// PROJECT
+		#project {
+			padding: 4em 0px 0px;
+			margin-bottom: 0px !important;
+			position: relative;
+			.project-wrap {
+				height: 500px;
+				padding: 0px;
+				display: block;
+				@include clearfix;
+				padding-top: 1em 0px;
+				// IMAGE
+				.project-img {
+					display: block;
+					@include span(6);
+					height: 400px;
+					width: 50%;
+					float: left;
+					position: absolute;
+					left: 0;
+					background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/images/front-page/proyectos-front-page.jpg");
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-size: cover;
+					img {
+
+					}
+					// @include span(6);
+				} //.project-img
+				// TEXT
+				.project-text {
+					height: 400px;
+					@include span (5 at 8);
+					display: flex;
+					// justify-content: center;
+					align-items: center;
+					align-content: flex-start;
+					.intro-text { //span
+						color: $orange;
+						letter-spacing: 0.8em;
+						text-transform: uppercase;
+						font-family: $copy;
+						font-weight: $bold;
+					} //.intro-text
+					.section-title { //h1
+						color: $black;
+						font-size: 60px;
+						font-size: 3.75rem;
+						line-height: 1.1;
+						padding: 0.25em 0px;
+						margin: 0px;
+					} //.section-title
+					.section-desc {
+						line-height: 1.5;
+						letter-spacing: 0.02em;
+						font-size: 17px;
+						font-size: 1.0625rem;
+					} //.section-desc
+					.readmore-container {
+						display: block;
+						margin-top: 2em;
+						.readmore-btn { //a
+							border: 2px solid $iccoblue;
+							padding: 11px 48px 12px;
+							margin-top: 13px;
+							text-transform: uppercase;
+							font-size: 14px;
+							font-weight: bold;
+							letter-spacing: .9px;
+							background: none;
+							@include single-transition(all, 0.2s, false, false);
+							&:hover,
+							&:focus {
+								border-color: $iccoblue;
+						    background-color: $iccoblue;
+						    color: $white;
+							} //&:hover, &:focus
+						} //.readmore-btn
+					} //.readmore-container
+				} //.project-text
+			} //.project-wrap
+
+			//BANNER
+			.banner {
+				display: block;
+				background-color: $iccoblue;
+				.item-ul {
+					@include container();
+					list-style: none;
+					padding: 1em 0px 0px;
+					margin-bottom: 0px;
+					display: flex;
+					.item-li {
+						flex-grow: 1;
+						flex-shrink: 1;
+						flex-basis: 0;
+						padding: 1em 2.2em;
+						text-align: center;
+						.fa {
+							font-size: 2.6em;
+							color: $orange;
+							padding: 0px;
+							margin: 0px;
+						} //.fa
+						h2 {
+							margin: 0px;
+							padding: 0.75em 0px;
+							font-weight: $light;
+							color: $white;
+						} //h2
+						p {
+							color: $snow;
+							letter-spacing: 0.0625em;
+						} //p
+					} //.item-li
+				} //.banner-ul
+			} //.banner
+		} //#project
+
+		// MEDIA
+		#media {
+			display: block;
+			position: relative;
+			height: auto;
+			padding: 0px;
+			.fpimage {
+				display: block;
+				height: 650px;
+				padding: 0px;
+				/* &:before {
+					content: '';
+					position: absolute;
+					display: block;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0; */
+					// background-color: rgba(56, 59, 63, 0.6);
+					// background-color: rgba($black, 0.2);
+					/* @include background-image(radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,1) 100%)); */
+				// } //&:after
+				.media-wrap {
+					// border: 3px solid yellow;
+					@include border-radius(8px);
+					.project-text {
+						max-width: 500px;
+						height: auto;
+						display: block;
+						padding: 3em;
+						// border: 2px solid yellow;
+						background-color: rgba(0, 0, 0, 0.2);
+						@include border-radius(4px);
+						.intro-text { //span
+							color: $orange;
+							letter-spacing: 0.8em;
+							text-transform: uppercase;
+							font-family: $copy;
+							font-weight: $bold;
+							@include single-text-shadow(0px, 1px, 0px, true, $black);
+						} //.intro-text
+						.section-title { //h1
+							color: $white;
+							font-size: 60px;
+							font-size: 3.75rem;
+							line-height: 1.1;
+							padding: 0.25em 0px;
+							margin: 0px;
+							@include single-text-shadow(0px, 1px, 0px, true, $black);
+						} //.section-title
+						.section-desc {
+							color: $white;
+							line-height: 1.5;
+							letter-spacing: 0.02em;
+							font-size: 17px;
+							font-size: 1.0625rem;
+						} //.section-desc
+						.readmore-container {
+							display: block;
+							margin-top: 2em;
+							.readmore-btn { //a
+								border: 2px solid $orange;
+								padding: 11px 48px 12px;
+								margin-top: 13px;
+								text-transform: uppercase;
+								font-size: 14px;
+								font-weight: bold;
+								letter-spacing: .9px;
+								background: none;
+								color: $white;
+								@include single-transition(all, 0.2s, false, false);
+								&:hover,
+								&:focus {
+									border-color: $orange;
+							    background-color: $orange;
+							    color: $white;
+								} //&:hover, &:focus
+							} //.readmore-btn
+						} //.readmore-container
+					} //.project-text
+				} //.media-wrap
+			} //.fpimage
+
+			.media-wrap {
+
+			} //.media-wrap
+		} //#media
+
+		// EVENTS
+		#events {
+			display: block;
+			position: relative;
+			height: auto;
+			padding: 0px;
+
+			.events-wrap {
+				.events-img {} //.events-img
+				.events-text {
+					.intro-text {
+						color: $orange;
+						letter-spacing: 0.8em;
+						text-transform: uppercase;
+						font-family: $copy;
+						font-weight: $bold;
+						// @include single-text-shadow(0px, 1px, 0px, true, $black);
+					} //.intro-text
+					.section-title {
+						color: $iccoblue;
+						font-size: 60px;
+						font-size: 3.75rem;
+						line-height: 1.1;
+						padding: 0.25em 0px;
+						margin: 0px;
+						text-transform: uppercase;
+						// @include single-text-shadow(0px, 1px, 0px, true, $white);
+					} //.section-title
+					.section-desc {
+						color: $black;
+						line-height: 1.5;
+						letter-spacing: 0.02em;
+						font-size: 17px;
+						font-size: 1.0625rem;
+					} //.section-desc
+					.readmore-container {
+						display: block;
+						margin-top: 2em;
+						.readmore-btn { //a
+							border: 2px solid $iccoblue;
+							padding: 11px 48px 12px;
+							margin-top: 13px;
+							text-transform: uppercase;
+							font-size: 14px;
+							font-weight: bold;
+							letter-spacing: .9px;
+							background: none;
+							color: $iccoblue;
+							@include single-transition(all, 0.2s, false, false);
+							&:hover,
+							&:focus {
+								border-color: $iccoblue;
+						    background-color: $iccoblue;
+						    color: $white;
+							} //&:hover, &:focus
+						} //.readmore-btn
+					} //.readmore-container
+				} //.events-text
+				.events-container {
+					.events-ul {
+						list-style: none;
+						display: flex;
+						justify-content: space-between;
+						.events-item { //li
+							width: 30%;
+							padding-bottom: 1em;
+							.event-img {}
+							.event-title {
+								text-align: center;
+								padding: 0px;
+								font-weight: $bold;
+							} //.event-title
+							.event-desc {
+								text-align: center;
+								margin: 0px 1em 2em;
+							} //.event-desc
+							// BUTTON
+							.readmore-container {
+								display: block;
+								margin-top: 0px auto;
+								.readmore-btn { //a
+									padding: 0.5em 1em;
+									border: 1px dotted $iccoblue;
+									display: block;
+									text-transform: uppercase;
+									font-size: 12px;
+									font-size: 0.75rem;
+									text-align: center;
+									font-weight: $normal;
+									letter-spacing: .9px;
+									background: none;
+									color: $darksilver;
+									@include single-transition(all, 0.2s, false, false);
+									&:hover,
+									&:focus {
+										border-color: $iccoblue;
+								    background-color: $iccoblue;
+								    color: $white;
+									} //&:hover, &:focus
+								} //.readmore-btn
+							} //.readmore-container
+						} //.events-item (li)
+					} //.events-ul
+				} //.events-container
+			} //.events-wrap
+		} //#events
+
+		// CANVAS
+		#canvas {
+			position: relative;
+			.canvas-wrap {
+				display: block;
+				padding-left: 0px;
+				.canvas-vid {
+
+					display: block;
+				} //.canvas-img
+				// TEXT
+				.canvas-text {
+					display: block;
+					@include container(80%);
+					.canvas-text-items {
+						display: flex;
+						flex-direction: column;
+						align-item: center;
+						justify-content: center;
+						align-content: flex-start;
+						.intro-text { //span
+							color: $orange;
+							letter-spacing: 0.8em;
+							text-transform: uppercase;
+							font-family: $copy;
+							font-weight: $bold;
+							margin-bottom: 0.5em;
+						} //.intro-text
+						.section-title { //h1
+							color: $black;
+							font-size: 30px;
+							font-size: 1.875rem;
+							line-height: 1.1;
+							padding: 0.25em 0px;
+							margin: 0px 0px 0.5em;
+							text-transform: uppercase;
+						} //.section-title
+						.section-desc {
+							line-height: 1.5;
+							letter-spacing: 0.02em;
+							font-size: 17px;
+							font-size: 1.0625rem;
+						} //.section-desc
+						.readmore-container {
+							display: block;
+							margin-top: 1em;
+							.readmore-btn { //a
+								border: 2px solid $iccoblue;
+								padding: 11px 48px 12px;
+								margin-top: 13px;
+								text-transform: uppercase;
+								font-size: 14px;
+								font-weight: bold;
+								letter-spacing: .9px;
+								background: none;
+								@include single-transition(all, 0.2s, false, false);
+								&:hover,
+								&:focus {
+									border-color: $iccoblue;
+							    background-color: $iccoblue;
+							    color: $white;
+								} //&:hover, &:focus
+							} //.readmore-btn
+						} //.readmore-container
+					}//.canvas-text-items
+				} //.canvas-text
+
+
+			} //.canvas-wrap
+		} //#canvas
+
+	} //.pleiadesmoon-front-page
+
+
 
 
 } //breakpoint($laptop) 48em 768px

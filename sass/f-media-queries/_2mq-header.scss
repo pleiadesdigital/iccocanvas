@@ -16,7 +16,11 @@
 	// SITE BRANDING
 	.site-branding {
 		margin-bottom: 0;
-	}
+		.wrap {
+			padding-left: 0px !important;
+		} //.wrap
+	} //.site-branding
+
 	.has-header-image.pleiadesmoon-front-page .site-branding,
 	.has-header-video.pleiadesmoon-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,

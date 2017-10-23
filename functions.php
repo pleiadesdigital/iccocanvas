@@ -226,7 +226,7 @@ function pleiadesmoon_colors_css_wrap() {
 	}
 
 	require_once(get_parent_theme_file_path('/inc/color-patterns.php'));
-	$hue = absint( get_theme_mod('colorscheme_hue', 250 ));
+	$hue = absint(get_theme_mod('colorscheme_hue', 250));
 ?>
 	<style type="text/css" id="custom-theme-colors" <?php if ( is_customize_preview() ) { echo 'data-hue="' . $hue . '"'; } ?>>
 		<?php echo pleiadesmoon_custom_colors_css(); ?>
@@ -246,7 +246,7 @@ function pleiadesmoon_scripts() {
 	wp_enqueue_script('pleiades17-fontawesome', 'https://use.fontawesome.com/b1403a6995.js', array(), '20170109', true);
 	// Google Fonts
 	// wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Libre+Franklin:200,300,400,400i,700');
-	wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,700|Rokkitt:300,400,500');
+	wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css?family=Oswald:300,400,500|Saira+Extra+Condensed:300,400');
 	// Google Maps
 	wp_enqueue_script('pleiades17-googlemaps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDjEcnBmAHgm_LfegO9o84NLPAfBLwVjSY', array(), '20161130', true);
 	// FlexSlider CSS & JS

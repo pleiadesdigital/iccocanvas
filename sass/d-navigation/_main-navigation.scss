@@ -1,7 +1,7 @@
 .navigation-top {
-	background: #fff;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
+	// background: rgba($marengo, 0.7);
+	/* border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee; */
 	font-size: 16px;
 	font-size: 1rem;
 	position: relative;
@@ -13,10 +13,12 @@
 }
 
 .navigation-top a {
-	color: #222;
+	color: $snow;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
+	font-weight: $normal;
+	text-transform: uppercase;
 }
 
 .navigation-top .current-menu-item > a,
@@ -89,7 +91,7 @@
 }
 
 .main-navigation a:hover {
-	color: #767676;
+	color: $orange;
 }
 
 /* Menu toggle */
