@@ -1,4 +1,31 @@
 @include breakpoint($movil) { //20em 320px
+	.site-footer {
+		background: #333333 url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/images/misc/bg-footer2.png") repeat;
+		box-shadow: inset 0 0 100px 0 rgba(0, 0, 0, 0.8);
+		.widget-area {
+			color: $snow;
+			.widget-title {
+				color: $white;
+			} //.widget-title
+			.textwidget {
+				color: $lightgrey;
+				font-weight: $light;
+				letter-spacing: 0.02em;
+				.footer-subtitle {
+					// text-transform: uppercase;
+					font-weight: $normal;
+					color: $darksilver;
+				} //.footer-subtitle
+			} //.textwidget
+		}
+
+
+		.site-info {
+			color: $midgrey;
+		} //.site-info
+	} //.site-footer
+
+
 
 } //breakpoint($movil) 20em 320px
 
