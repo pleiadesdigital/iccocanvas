@@ -38,10 +38,10 @@
 			} //.media-wrap
 		} //#media
 		// EVENTS
-		#events {
+		#learnings {
 			background-color: $white;
-			.events-wrap {
-				padding: 5em 2em;
+			.learnings-wrap {
+				// padding: 5em 2em;
 			} //.events-wrap
 		} //#events
 		// CANVAS
@@ -179,45 +179,49 @@
 	} //.pleiadesmoon-front-page
 
 	/* CONTENT */
-
 	.pleiadesmoon-front-page {
 		// PROJECT
 		#project {
-			padding: 4em 0px 0px;
+			padding: 4em 0px;
 			margin-bottom: 0px !important;
 			position: relative;
+			height: auto;
 			.project-wrap {
-				height: 500px;
+				// height: 500px;
+				height: auto;
 				padding: 0px;
 				display: block;
-				@include clearfix;
-				padding-top: 1em 0px;
 				// IMAGE
-				.project-img {
-					display: block;
+				.project-img-container {
 					@include span(6);
-					height: 400px;
-					width: 50%;
-					float: left;
-					position: absolute;
-					left: 0;
-					background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/images/front-page/proyectos-front-page.jpg");
-					background-repeat: no-repeat;
-					background-position: center center;
-					background-size: cover;
-					img {
+					display: block;
+					height: 100%;
+					.project-img {
+						display: block;
+						// @include span(6);
+						height: 80%;
+						width: 50%;
+						float: left;
+						position: absolute;
+						left: 0;
+						background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/iccocanvas/assets/images/front-page/proyectos-front-page.jpg");
+						background-repeat: no-repeat;
+						background-position: center center;
+						background-size: cover;
+						img {} //img
+						// @include span(6);
+					} //.project-img
+				} //.project-img-container
 
-					}
-					// @include span(6);
-				} //.project-img
 				// TEXT
 				.project-text {
-					height: 400px;
-					@include span (5 at 8);
+					// height: 400px;
+					@include span(5 at 8);
 					display: flex;
 					// justify-content: center;
 					align-items: center;
 					align-content: flex-start;
+					padding: 1em 0px;
 					.intro-text { //span
 						color: $orange;
 						letter-spacing: 0.8em;
@@ -227,8 +231,8 @@
 					} //.intro-text
 					.section-title { //h1
 						color: $black;
-						font-size: 60px;
-						font-size: 3.75rem;
+						font-size: 40px;
+						font-size: 2.5rem;
 						line-height: 1.1;
 						padding: 0.25em 0px;
 						margin: 0px;
@@ -264,9 +268,9 @@
 			} //.project-wrap
 
 			//BANNER
-			.banner {
+			/* .banner {
 				display: block;
-				background-color: $iccoblue;
+				background-color: maroon;
 				.item-ul {
 					@include container();
 					list-style: none;
@@ -297,15 +301,15 @@
 						} //p
 					} //.item-li
 				} //.banner-ul
-			} //.banner
+			} */ //.banner
 		} //#project
-
 		// MEDIA
 		#media {
 			display: block;
 			position: relative;
 			height: auto;
 			padding: 0px;
+			overflow: hidden;
 			.fpimage {
 				display: block;
 				height: 650px;
@@ -326,7 +330,7 @@
 					// border: 3px solid yellow;
 					@include border-radius(8px);
 					.project-text {
-						max-width: 500px;
+						@include span(8 of 12);
 						height: auto;
 						display: block;
 						padding: 3em;
@@ -387,17 +391,41 @@
 
 			} //.media-wrap
 		} //#media
-
-		// EVENTS
-		#events {
-			display: block;
+		// APRENDIZAJES
+		#learnings {
+			padding: 4em 0px;
 			position: relative;
 			height: auto;
-			padding: 0px;
-
-			.events-wrap {
-				.events-img {} //.events-img
-				.events-text {
+			.learnings-wrap {
+				height: auto;
+				padding: 0px;
+				display: block;
+				.learnings-img-container {
+					@include span(6);
+					display: block;
+					margin-right: 0px;
+					height: 100%;
+					.learnings-img {
+						display: block;
+						margin-top: 0px;
+						height: 80%;
+						width: 50%;
+						float: right;
+						position: absolute;
+						right: 0;
+						background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/iccocanvas/assets/images/front-page/proyectos-front-page.jpg");
+						background-repeat: no-repeat;
+						background-position: center center;
+						background-size: cover;
+					} //.learnings-img
+				} //.learnings-img-container
+				// TEXT
+				.learnings-text {
+					@include span(5);
+					/* display: flex;
+					text-align: center;
+					align-content: flex-start;
+					padding: 1em 0px; */
 					.intro-text {
 						color: $orange;
 						letter-spacing: 0.8em;
@@ -408,8 +436,8 @@
 					} //.intro-text
 					.section-title {
 						color: $iccoblue;
-						font-size: 60px;
-						font-size: 3.75rem;
+						font-size: 40px;
+						font-size: 2.5rem;
 						line-height: 1.1;
 						padding: 0.25em 0px;
 						margin: 0px;

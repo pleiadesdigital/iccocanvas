@@ -12,12 +12,14 @@
 			<section id="project" class="fpsection">
 			  <div class="fpwrap project-wrap">
 			  	<!-- IMAGE -->
-			  	<div class="project-img"></div><!-- class="project-img" -->
+			  	<div class="project-img-container">
+			  		<figure class="project-img"></figure>
+			  	</div><!-- class="project-img" -->
 			  	<div class="project-text">
 			  		<article class="project-text-items">
 				  		<span class="intro-text">El Proyecto</span>
 				  		<h1 class="section-title">WHO VISIT THE FINE CITY OF INDIANAPOLIS</h1>
-				  		<p class="section-desc">Teneo, inquit, finem illi videri nihil dolere. Tria genera bonorum; Tu quidem reddes; Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur. Negabat igitur ullam esse artem, quae ipsa a se proficisceretur; Consequens enim est et post oritur, ut dixi. Igitur neque stultorum quisquam beatus neque sapientium non beatus.</p>
+				  		<p class="section-desc">Teneo, inquit, finem illi videri nihil dolere. Tria genera bonorum; Tu quidem reddes; Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur.Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur.Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur. Consequens enim est et post oritur, ut dixi. Igitur neque stultorum quisquam beatus neque sapientium non beatus.</p>
 				  		<div class="readmore-container">
 								<a href="#" class="readmore-btn">Más información</a>
 				  		</div>
@@ -26,7 +28,8 @@
 			  	</div><!-- class="project-text" -->
 
 			  </div><!-- class="project-wrap-wrap" -->
-			  <div class="banner">
+			  <!-- BANNER -->
+			  <!-- <div class="banner">
 			  	<ul class="item-ul">
 			  		<li class="item-li">
 			  			<span><i class="fa fa-meetup" aria-hidden="true"></i></span>
@@ -48,14 +51,13 @@
 			  			<h2>Fase IV</h2>
 			  			<p>Formación y Actividades Complementarias</p>
 			  		</li>
-			  	</ul><!-- class="item-ul" -->
-
-			  </div>
+			  	</ul><class="item-ul"
+			  </div> class="banner" -->
 			</section><!-- id="project" -->
 
 			<!-- LOS MEDIOS -->
 			<section id="media" class="fpsection">
-				<div class="fpimage background-image" style="background-image: url('http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/images/front-page/media-front-page.jpg')">
+				<div class="fpimage background-image" style="background-image: url('http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/iccocanvas/assets/images/front-page/media-front-page.jpg')">
 				  <div class="fpwrap media-wrap">
 				  	<div class="project-text">
 					    <span class="intro-text">Los Medios</span>
@@ -70,58 +72,32 @@
 				</div><!-- class="fpimage" -->
 			</section><!-- class="indie-media" -->
 
-			<!-- EVENTOS -->
+			<!-- APRENDIZAJES -->
 
-			<section id="events" class="fpsection">
-			  <div class="fpwrap events-wrap">
+			<section id="learnings" class="fpsection">
+			  <div class="fpwrap learnings-wrap">
 
 			  	<!-- IMAGE -->
-			  	<div class="events-img"></div><!-- class="events-img" -->
+			  	<div class="learnings-img-container">
+			  		<figure class="learnings-img"></figure>
+			  	</div><!-- class="project-img" -->
 			  	<!-- TEXT -->
-			  	<div class="events-text">
-			  		<article class="events-text-items">
-				  		<span class="intro-text">Eventos</span>
-				  		<h1 class="section-title">&#8220;Fuck Up Nights - FUN&#8221;</h1>
-				  		<p class="section-desc">Teneo, inquit, finem illi videri nihil dolere. Tria genera bonorum; Tu quidem reddes; Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur. Negabat igitur ullam esse artem, quae ipsa a se proficisceretur; Consequens enim est et post oritur, ut dixi. Igitur neque stultorum quisquam beatus neque sapientium non beatus.</p>
+			  	<div class="learnings-text">
+			  		<article class="learnings-text-items">
+				  		<span class="intro-text">Aprendizajes</span>
+				  		<h1 class="section-title">Fortalecimiento de Modelos de Negocios</h1>
+				  		<p class="section-desc">A través de este proyecto hemos querido contribuir a la cultura democrática de 3 países en América Latina: Colombia, Paraguay y Bolivia. Lo anterior, mediante el fortalecimiento de modelos de negocios de medios independientes de comunicación (periodismo alternativo), que a nuestro entender juegan un rol estratégico y protagónico en la consolidación de sociedades más justas, democráticas, informadas y empoderadas.</p>
+				  		<!-- BUTTON -->
+					  	<div class="readmore-container">
+								<a href="#" class="readmore-btn">Más información</a>
+				  		</div>
 			  		</article><!-- class="project-text-items" -->
-			  	</div><!-- class="events-text" -->
-
-					<!-- EVENTS -->
-					<div class="events-container">
-				  	<ul class="events-ul">
-				  		<li class="events-item">
-				  			<img class="event-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/events/event1.jpg">
-				  			<h3 class="event-title">FuckUp Nights Bolivia</h3>
-				  			<p class="event-desc">Exposiciones sobre éxitos y fracasos de Emprendedores en Medios Independientes.</p>
-	  			  		<div class="readmore-container">
-	  							<a href="#" class="readmore-btn">Ir al evento</a>
-	  			  		</div>
-				  		</li>
-				  		<li class="events-item">
-				  			<img class="event-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/events/event2.jpg">
-				  			<h3 class="event-title">FuckUp Nights Colombia</h3>
-				  			<p class="event-desc">Exposiciones sobre éxitos y fracasos de Emprendedores en Medios Independientes.</p>
-	  			  		<div class="readmore-container">
-	  							<a href="#" class="readmore-btn">Ir al evento</a>
-	  			  		</div>
-				  		</li>
-				  		<li class="events-item">
-				  			<img class="event-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/events/event3.jpg">
-				  			<h3 class="event-title">FuckUp Nights México</h3>
-				  			<p class="event-desc">Exposiciones sobre éxitos y fracasos de Emprendedores en Medios Independientes.</p>
-	  			  		<div class="readmore-container">
-	  							<a href="#" class="readmore-btn">Ir al evento</a>
-	  			  		</div>
-				  		</li>
-				  	</ul><!-- class="events-ul" -->
-					</div><!-- class="events-container" -->
-
-
-
-
+			  	</div><!-- class="learnings-text" -->
 
 			  </div><!-- class="indie-media-wrap" -->
 			</section><!-- class="indie-media" -->
+
+
 
 			<!-- MODELO CANVAS    -->
 

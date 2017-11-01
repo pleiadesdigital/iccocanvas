@@ -4086,12 +4086,8 @@ F. Media Queries
     padding: 5em 2em;
   }
   /* line 41, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events {
+  .pleiadesmoon-front-page #learnings {
     background-color: #FFFFFF;
-  }
-  /* line 43, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap {
-    padding: 5em 2em;
   }
   /* line 48, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas {
@@ -4268,48 +4264,85 @@ F. Media Queries
   }
 
   /* CONTENT */
-  /* line 185, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 184, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project {
-    padding: 4em 0px 0px;
+    padding: 4em 0px;
     margin-bottom: 0px !important;
     position: relative;
+    height: auto;
+    /* .banner {
+    	display: block;
+    	background-color: maroon;
+    	.item-ul {
+    		@include container();
+    		list-style: none;
+    		padding: 1em 0px 0px;
+    		margin-bottom: 0px;
+    		display: flex;
+    		.item-li {
+    			flex-grow: 1;
+    			flex-shrink: 1;
+    			flex-basis: 0;
+    			padding: 1em 2.2em;
+    			text-align: center;
+    			.fa {
+    				font-size: 2.6em;
+    				color: $orange;
+    				padding: 0px;
+    				margin: 0px;
+    			} //.fa
+    			h2 {
+    				margin: 0px;
+    				padding: 0.75em 0px;
+    				font-weight: $light;
+    				color: $white;
+    			} //h2
+    			p {
+    				color: $snow;
+    				letter-spacing: 0.0625em;
+    			} //p
+    		} //.item-li
+    	} //.banner-ul
+    } */
   }
   /* line 189, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap {
-    height: 500px;
+    height: auto;
     padding: 0px;
     display: block;
-    overflow: hidden;
-    *zoom: 1;
-    padding-top: 1em 0px;
   }
-  /* line 196, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .project-wrap .project-img {
-    display: block;
+  /* line 195, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #project .project-wrap .project-img-container {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
-    height: 400px;
+    display: block;
+    height: 100%;
+  }
+  /* line 199, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #project .project-wrap .project-img-container .project-img {
+    display: block;
+    height: 80%;
     width: 50%;
     float: left;
     position: absolute;
     left: 0;
-    background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/images/front-page/proyectos-front-page.jpg");
+    background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/iccocanvas/assets/images/front-page/proyectos-front-page.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
   }
-  /* line 214, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 217, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text {
-    height: 400px;
     width: 40.67797%;
     float: right;
     margin-right: 0;
     display: flex;
     align-items: center;
     align-content: flex-start;
+    padding: 1em 0px;
   }
-  /* line 221, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 225, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text .intro-text {
     color: #ee7d0c;
     letter-spacing: 0.8em;
@@ -4317,28 +4350,28 @@ F. Media Queries
     font-family: "Oswald", sans-serif;
     font-weight: 600;
   }
-  /* line 228, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 232, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text .section-title {
     color: #000000;
-    font-size: 60px;
-    font-size: 3.75rem;
+    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.1;
     padding: 0.25em 0px;
     margin: 0px;
   }
-  /* line 236, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 240, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text .section-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 17px;
     font-size: 1.0625rem;
   }
-  /* line 242, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 246, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text .readmore-container {
     display: block;
     margin-top: 2em;
   }
-  /* line 245, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 249, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text .readmore-container .readmore-btn {
     border: 2px solid #162541;
     padding: 11px 48px 12px;
@@ -4353,68 +4386,21 @@ F. Media Queries
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
-  /* line 255, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 259, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #project .project-wrap .project-text .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #project .project-wrap .project-text .readmore-container .readmore-btn:focus {
     border-color: #162541;
     background-color: #162541;
     color: #FFFFFF;
   }
-  /* line 267, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .banner {
-    display: block;
-    background-color: #162541;
-  }
-  /* line 270, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .banner .item-ul {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-    padding: 1em 0px 0px;
-    margin-bottom: 0px;
-    display: flex;
-  }
-  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-  .pleiadesmoon-front-page #project .banner .item-ul:after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-  /* line 276, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .banner .item-ul .item-li {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-    padding: 1em 2.2em;
-    text-align: center;
-  }
-  /* line 282, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .banner .item-ul .item-li .fa {
-    font-size: 2.6em;
-    color: #ee7d0c;
-    padding: 0px;
-    margin: 0px;
-  }
-  /* line 288, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .banner .item-ul .item-li h2 {
-    margin: 0px;
-    padding: 0.75em 0px;
-    font-weight: 300;
-    color: #FFFFFF;
-  }
-  /* line 294, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #project .banner .item-ul .item-li p {
-    color: #f2f2f2;
-    letter-spacing: 0.0625em;
-  }
-  /* line 304, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 307, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media {
     display: block;
     position: relative;
     height: auto;
     padding: 0px;
+    overflow: hidden;
   }
-  /* line 309, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 313, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage {
     display: block;
     height: 650px;
@@ -4429,15 +4415,17 @@ F. Media Queries
     	left: 0; */
     /* @include background-image(radial-gradient(center, ellipse cover, rgba(0,0,0,0.1) 0%,rgba(0,0,0,1) 100%)); */
   }
-  /* line 325, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 329, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
   }
-  /* line 328, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 332, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text {
-    max-width: 500px;
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
     height: auto;
     display: block;
     padding: 3em;
@@ -4446,7 +4434,7 @@ F. Media Queries
     -webkit-border-radius: 4px;
     border-radius: 4px;
   }
-  /* line 336, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 340, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .intro-text {
     color: #ee7d0c;
     letter-spacing: 0.8em;
@@ -4456,7 +4444,7 @@ F. Media Queries
     text-shadow: 0px 1px 0px #000000;
     text-shadow: 0px 1px 0px true #000000;
   }
-  /* line 344, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 348, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .section-title {
     color: #FFFFFF;
     font-size: 60px;
@@ -4467,7 +4455,7 @@ F. Media Queries
     text-shadow: 0px 1px 0px #000000;
     text-shadow: 0px 1px 0px true #000000;
   }
-  /* line 353, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 357, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .section-desc {
     color: #FFFFFF;
     line-height: 1.5;
@@ -4475,12 +4463,12 @@ F. Media Queries
     font-size: 17px;
     font-size: 1.0625rem;
   }
-  /* line 360, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 364, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .readmore-container {
     display: block;
     margin-top: 2em;
   }
-  /* line 363, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 367, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .readmore-container .readmore-btn {
     border: 2px solid #ee7d0c;
     padding: 11px 48px 12px;
@@ -4496,52 +4484,90 @@ F. Media Queries
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
-  /* line 374, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 378, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #media .fpimage .media-wrap .project-text .readmore-container .readmore-btn:focus {
     border-color: #ee7d0c;
     background-color: #ee7d0c;
     color: #FFFFFF;
   }
-  /* line 392, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events {
-    display: block;
+  /* line 395, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings {
+    padding: 4em 0px;
     position: relative;
     height: auto;
-    padding: 0px;
   }
-  /* line 401, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-text .intro-text {
+  /* line 399, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap {
+    height: auto;
+    padding: 0px;
+    display: block;
+  }
+  /* line 403, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-img-container {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: block;
+    margin-right: 0px;
+    height: 100%;
+  }
+  /* line 408, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-img-container .learnings-img {
+    display: block;
+    margin-top: 0px;
+    height: 80%;
+    width: 50%;
+    float: right;
+    position: absolute;
+    right: 0;
+    background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/iccocanvas/assets/images/front-page/proyectos-front-page.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  /* line 423, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%;
+    /* display: flex;
+    text-align: center;
+    align-content: flex-start;
+    padding: 1em 0px; */
+  }
+  /* line 429, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .intro-text {
     color: #ee7d0c;
     letter-spacing: 0.8em;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
   }
-  /* line 409, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-text .section-title {
+  /* line 437, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .section-title {
     color: #162541;
-    font-size: 60px;
-    font-size: 3.75rem;
+    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.1;
     padding: 0.25em 0px;
     margin: 0px;
     text-transform: uppercase;
   }
-  /* line 419, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-text .section-desc {
+  /* line 447, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .section-desc {
     color: #000000;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 17px;
     font-size: 1.0625rem;
   }
-  /* line 426, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-text .readmore-container {
+  /* line 454, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .readmore-container {
     display: block;
     margin-top: 2em;
   }
-  /* line 429, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-text .readmore-container .readmore-btn {
+  /* line 457, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .readmore-container .readmore-btn {
     border: 2px solid #162541;
     padding: 11px 48px 12px;
     margin-top: 13px;
@@ -4556,41 +4582,41 @@ F. Media Queries
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
-  /* line 440, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-text .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #events .events-wrap .events-text .readmore-container .readmore-btn:focus {
+  /* line 468, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #learnings .learnings-wrap .learnings-text .readmore-container .readmore-btn:focus {
     border-color: #162541;
     background-color: #162541;
     color: #FFFFFF;
   }
-  /* line 450, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul {
+  /* line 478, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
   }
-  /* line 454, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item {
+  /* line 482, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item {
     width: 30%;
     padding-bottom: 1em;
   }
-  /* line 458, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item .event-title {
+  /* line 486, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item .event-title {
     text-align: center;
     padding: 0px;
     font-weight: 600;
   }
-  /* line 463, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item .event-desc {
+  /* line 491, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item .event-desc {
     text-align: center;
     margin: 0px 1em 2em;
   }
-  /* line 468, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item .readmore-container {
+  /* line 496, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item .readmore-container {
     display: block;
     margin-top: 0px auto;
   }
-  /* line 471, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item .readmore-container .readmore-btn {
+  /* line 499, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item .readmore-container .readmore-btn {
     padding: 0.5em 1em;
     border: 1px dotted #162541;
     display: block;
@@ -4607,26 +4633,26 @@ F. Media Queries
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
-  /* line 484, sass/f-media-queries/_8mq-frontpage.scss */
-  .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #events .events-wrap .events-container .events-ul .events-item .readmore-container .readmore-btn:focus {
+  /* line 512, sass/f-media-queries/_8mq-frontpage.scss */
+  .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #learnings .learnings-wrap .events-container .events-ul .events-item .readmore-container .readmore-btn:focus {
     border-color: #162541;
     background-color: #162541;
     color: #FFFFFF;
   }
-  /* line 499, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 527, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas {
     position: relative;
   }
-  /* line 501, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 529, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap {
     display: block;
     padding-left: 0px;
   }
-  /* line 504, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 532, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-vid {
     display: block;
   }
-  /* line 509, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 537, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text {
     display: block;
     max-width: 80%;
@@ -4639,7 +4665,7 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 512, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 540, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items {
     display: flex;
     flex-direction: column;
@@ -4647,7 +4673,7 @@ F. Media Queries
     justify-content: center;
     align-content: flex-start;
   }
-  /* line 518, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 546, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .intro-text {
     color: #ee7d0c;
     letter-spacing: 0.8em;
@@ -4656,7 +4682,7 @@ F. Media Queries
     font-weight: 600;
     margin-bottom: 0.5em;
   }
-  /* line 526, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 554, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .section-title {
     color: #000000;
     font-size: 30px;
@@ -4666,19 +4692,19 @@ F. Media Queries
     margin: 0px 0px 0.5em;
     text-transform: uppercase;
   }
-  /* line 535, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 563, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .section-desc {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 17px;
     font-size: 1.0625rem;
   }
-  /* line 541, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 569, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .readmore-container {
     display: block;
     margin-top: 1em;
   }
-  /* line 544, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 572, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .readmore-container .readmore-btn {
     border: 2px solid #162541;
     padding: 11px 48px 12px;
@@ -4693,7 +4719,7 @@ F. Media Queries
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
   }
-  /* line 554, sass/f-media-queries/_8mq-frontpage.scss */
+  /* line 582, sass/f-media-queries/_8mq-frontpage.scss */
   .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .readmore-container .readmore-btn:hover, .pleiadesmoon-front-page #canvas .canvas-wrap .canvas-text .canvas-text-items .readmore-container .readmore-btn:focus {
     border-color: #162541;
     background-color: #162541;
