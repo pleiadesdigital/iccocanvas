@@ -1,1 +1,4 @@
 style="background-image: url(http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/images/front-page/proyectos-front-page.jpg)"
+
+
+style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/pages/page-proyecto.jpg)"

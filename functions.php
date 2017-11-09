@@ -1,10 +1,5 @@
 <?php /* Pleiades Moon Premium Theme functions and definitions */
 
-// WordPress version check (4.7 or later)
-if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php';
-	return;
-}
 // SET UP THEME DEFAULTS
 function pleiadesmoon_setup() {
 	// Make theme available for translation
@@ -21,6 +16,7 @@ function pleiadesmoon_setup() {
 	$GLOBALS['content_width'] = 525;
 	// NAVIGATION
 	register_nav_menus(array(
+		'frontpage'    => __('Fronpage Menu', 'pleiadesmoon'),
 		'top'    => __('Top Menu', 'pleiadesmoon'),
 		'social' => __('Social Links Menu', 'pleiadesmoon'),
 	));
@@ -53,86 +49,6 @@ function pleiadesmoon_setup() {
 	// Visual editor styles
 	//add_editor_style(array('assets/css/editor-style.css', pleiadesmoon_fonts_url()));
 
-	// Define and register starter content to showcase the theme on new sites
-	$starter_content = array(
-		'widgets' => array(
-			'sidebar-1' => array(
-				'text_business_info',
-				'search',
-				'text_about',
-			),
-			'sidebar-2' => array(
-				'text_business_info',
-			),
-			'sidebar-3' => array(
-				'text_about',
-				'search',
-			),
-		),
-		'posts' => array(
-			'home',
-			'about' => array(
-				'thumbnail' => '{{image-sandwich}}',
-			),
-			'contact' => array(
-				'thumbnail' => '{{image-espresso}}',
-			),
-			'blog' => array(
-				'thumbnail' => '{{image-coffee}}',
-			),
-			'homepage-section' => array(
-				'thumbnail' => '{{image-espresso}}',
-			),
-		),
-		'attachments' => array(
-			'image-espresso' => array(
-				'post_title' => _x('Espresso', 'Theme starter content', 'pleiadesmoon'),
-				'file' => 'assets/images/espresso.jpg',
-			),
-			'image-sandwich' => array(
-				'post_title' => _x('Sandwich', 'Theme starter content', 'pleiadesmoon'),
-				'file' => 'assets/images/sandwich.jpg',
-			),
-			'image-coffee' => array(
-				'post_title' => _x('Coffee', 'Theme starter content', 'pleiadesmoon' ),
-				'file' => 'assets/images/coffee.jpg',
-			),
-		),
-		'options' => array(
-			'show_on_front' => 'page',
-			'page_on_front' => '{{home}}',
-			'page_for_posts' => '{{blog}}',
-		),
-		'theme_mods' => array(
-			'panel_1' => '{{homepage-section}}',
-			'panel_2' => '{{about}}',
-			'panel_3' => '{{blog}}',
-			'panel_4' => '{{contact}}',
-		),
-		'nav_menus' => array(
-			'top' => array(
-				'name' => __('Top Menu', 'pleiadesmoon'),
-				'items' => array(
-					'link_home',
-					'page_about',
-					'page_blog',
-					'page_contact',
-				),
-			),
-			'social' => array(
-				'name' => __( 'Social Links Menu', 'pleiadesmoon' ),
-				'items' => array(
-					'link_yelp',
-					'link_facebook',
-					'link_twitter',
-					'link_instagram',
-					'link_email',
-				),
-			),
-		),
-	);
-	$starter_content = apply_filters('pleiadesmoon_starter_content', $starter_content);
-	add_theme_support('starter-content', $starter_content);
 } //pleiadesmoon_setup()
 add_action('after_setup_theme', 'pleiadesmoon_setup');
 
@@ -320,6 +236,13 @@ function pleiadesmoon_front_page_template($template) {
 	return is_home() ? '' : $template;
 }
 add_filter('frontpage_template',  'pleiadesmoon_front_page_template');
+
+/* Add Excerpts to Pages */
+function add_exerpts_to_pages() {
+	add_post_type_support('page', 'excerpt');
+}
+add_action('init', 'add_exerpts_to_pages');
+
 
 /* REQUIRED FILES */
 // Implement the Custom Header feature

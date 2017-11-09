@@ -5,111 +5,91 @@
 		[
 			[
 				"padd",
-				"padding"
+				"padding-top"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"the_post_",
+				"the_post_thumbnail"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"backgr",
+				"background-size"
 			],
 			[
 				"the_post",
 				"the_post_thumbnail"
 			],
 			[
-				"pad",
-				"padding"
+				"querySel",
+				"querySelectorAll\t( selectors: DOMString ): NodeList Element"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"social",
+				"socialMedia2"
 			],
 			[
-				"font-",
-				"font-family"
+				"getEl",
+				"getElementById\t( elementId: DOMString ): Element Document"
 			],
 			[
-				"mar",
-				"margin-bottom"
+				"getElementsBy",
+				"getElementsByClassName\t( classNames: DOMString ): HTMLCollection Element"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"forea",
+				"forEach"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"su",
+				"sum"
 			],
 			[
 				"text",
-				"text-align"
-			],
-			[
-				"nex",
-				"$nextImg〔variable〕"
-			],
-			[
-				"light",
-				"lightgrey"
-			],
-			[
-				"margin-",
-				"margin-left"
-			],
-			[
-				"paddi",
-				"padding"
-			],
-			[
-				"att",
-				"$attachments〔variable〕"
-			],
-			[
-				"endfor",
-				"endforeach〔keyword〕"
-			],
-			[
-				"wp_get_attach",
-				"wp_get_attachment_url"
-			],
-			[
-				"get_tem",
-				"get_template_directory_uri"
-			],
-			[
-				"background-",
-				"background-image"
-			],
-			[
-				"var",
-				"var_dump〔function〕"
-			],
-			[
-				"atta",
-				"$attachments〔variable〕"
-			],
-			[
-				"bor",
-				"border"
-			],
-			[
-				"cur",
-				"cursor"
+				"text-transform"
 			],
 			[
 				"marg",
 				"margin-left"
 			],
 			[
-				"inline",
-				"inline-block"
+				"ba",
+				"background-position"
 			],
 			[
-				"box-d",
-				"box-shadow"
+				"wid",
+				"width"
 			],
 			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"for",
-				"foreach\tforeach …"
-			],
-			[
-				"border",
-				"border-radius"
-			],
-			[
-				"bacl",
-				"background-color"
+				"re",
+				"relative"
 			],
 			[
 				"pos",
@@ -120,57 +100,59 @@
 				"background-color"
 			],
 			[
-				"di",
-				"display"
+				"margin",
+				"margin-bottom"
 			],
 			[
-				"wp_get_attac",
-				"wp_get_attachment_url"
+				"paddi",
+				"padding-bottom"
 			],
 			[
-				"wid",
-				"width"
+				"min",
+				"min-height"
 			],
 			[
-				"mysqli_fet",
-				"mysqli_fetch_assoc〔function〕"
+				"mar",
+				"margin"
 			],
 			[
-				"mysqli_conne",
-				"mysqli_connect_errno〔function〕"
+				"pad",
+				"padding"
 			],
 			[
-				"mysqli_connect",
-				"mysqli_connect_errno〔function〕"
-			],
-			[
-				"mysqli_fe",
-				"mysqli_fetch_assoc〔function〕"
-			],
-			[
-				"subject",
-				"$subject_set〔variable〕"
-			],
-			[
-				"mysql",
-				"mysqli_close〔function〕"
-			],
-			[
-				"DB_",
-				"DB_USER〔constant〕"
-			],
-			[
-				"db",
-				"$dbpass〔variable〕"
-			],
-			[
-				"mysqli",
-				"mysqli_connect〔function〕"
+				"get_template_d",
+				"get_template_directory_uri"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "template-parts/page/content-proyecto.php",
+			"settings":
+			{
+				"buffer_size": 679,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/f-media-queries/_90mq-template-parts.scss",
+			"settings":
+			{
+				"buffer_size": 1981,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template-parts/page/content-page.php",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -185,10 +167,26 @@
 		[
 			[
 				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 592.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -206,81 +204,94 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/h-variables",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/page"
+	],
 	"file_history":
 	[
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/b-layout/_base.scss",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Happy happy joy joy 2.tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/page-canvasfree.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/page.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/header.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/header/site-branding.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/navigation/navigation-top.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_2mq-header.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/header/header-image.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/inc/custom-header.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/inc/icon-functions.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/functions.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/navigation/navigation-topfp.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/page/content-proyecto.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_90mq-template-parts.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/zSandBox",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/index.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_media-queries.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/page/content-front-page.php",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Eiffel.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Mac Classic.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Solarized (Dark).tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/LastNight.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/krTheme.tmTheme",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/iLife 05.tmTheme",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap3/script.js",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap3/index.html",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/index.php",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/challenge/index.html",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/drafts.js",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/challenge/script.js",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Django.tmTheme",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/challenge/script_draft.js",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Pastie.tmTheme",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/script.js",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_8mq-frontpage.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/footer.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/b-layout/_footer.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_3mq-footer.scss",
+		"/Users/ronyortiz/Desktop/front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/acompas/wp-content/themes/pleiades17/sass/f-media-queries/_mq_pages.scss",
+		"/Users/ronyortiz/Sites/sites2017/acompas/wp-content/themes/pleiades17/sass/f-media-queries/_mq_footer.scss",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap1/script.js",
+		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap1/index.html",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/b-layout/_footer.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/header.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/header/site-branding.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/functions.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_91mq-misc.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_8mq-frontpage.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sandbox.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Argonaut.tmTheme",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/page/content-page.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/home.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_3mq-footer.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/template-parts/footer/site-info.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/style.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-config.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-config-sample.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-login.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/IR_White.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/IR_Black.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/inc/theme-support.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/template-parts/content-gallery.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fluidvision.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Freckle.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Blackboard.tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_4mq-navigation.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/h-variables/_mixins.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/js/app.js",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/d-navigation/_main-navigation.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/f-media-queries/_2mq-header.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/h-variables/_colors.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/h-variables/_fonts.scss",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/BBEdit.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/Material Theme/schemes/Material-Theme.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/c-elements/_postformats.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/js/app.js",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/template-parts/content-image.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Django.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Happy happy joy joy 2.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/inc/enqueue.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/functions.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/js/main.js",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Clouds.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/css/glide.theme.css",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Dawn.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/iLife 05.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/js/glide.js",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Text Ex Machina.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sandbox.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/css/glide.core.css",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/b-layout/_header.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/d-navigation/_main-navigation.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/header.php",
-		"/Users/ronyortiz/Desktop/glidejs-master/src/sass/glide.theme.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/template-parts/content-video.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/template-parts/content.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/b-layout/_blog.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/template-parts/content-audio.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Last Night.tmTheme",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/style.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/c-elements/_formatting.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/home.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/footer.php",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/h-variables/_colors.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/b-layout/_base.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/h-variables/_fonts.scss",
-		"/Users/ronyortiz/Sites/training2017/sunset/wp-content/themes/sunsettheme/sass/h-variables/_mixins.scss",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/private/shared/staff_footer.php",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/public/staff/pages/index.php",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/public/staff/subjects/index.php",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/private/database.php",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/private/db_credentials.php",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/db_connect.php",
-		"/Users/ronyortiz/Sites/training2017/php2018/globe_bank/private/initialize.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Goldfish.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Glowfish.tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/g-theme-fallbacks/_customizer.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/zSandBox",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/GlitterBomb.tmTheme",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fade to Grey.tmTheme"
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/functions.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/sass/c-elements/_typography.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/pleiadesmoon/assets/js/global.js",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Freckle.tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/sass/b-layout/_base.scss",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/package.json",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/gulpfile.js",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/.gitignore",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/404.php",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Fluidvision.tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/pleiadesmoon/wp-content/themes/pleiadesmoon/header.php"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -311,23 +322,396 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "template-parts/page/content-proyecto.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								336
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "php",
+							"buffer_scroll_name": "0d2f7e17",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "sass/f-media-queries/_90mq-template-parts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1295,
+								1295
+							],
+							[
+								1333,
+								1333
+							],
+							[
+								1374,
+								1374
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1606,
+										1607
+									],
+									"2":
+									[
+										1606,
+										1607
+									],
+									"3":
+									[
+										1606,
+										1607
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									],
+									"3":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1217,
+										1218
+									],
+									"2":
+									[
+										1217,
+										1218
+									],
+									"3":
+									[
+										1217,
+										1218
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "ba6a26ce",
+							"spell_check": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "template-parts/page/content-page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								554,
+								554
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "php",
+							"buffer_scroll_name": "dc2a1aef",
+							"spell_check": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 66.0
+		"height": 64.0
 	},
 	"layout":
 	{
@@ -349,7 +733,7 @@
 		"cols":
 		[
 			0.0,
-			0.764920533158,
+			0.576232861289,
 			1.0
 		],
 		"rows":
@@ -363,11 +747,15 @@
 	{
 		"height": 0.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "iccocanvas.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -397,15 +785,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 215.0,
+	"side_bar_visible": false,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -11,48 +11,33 @@
 			<!-- EL PROYECTO -->
 			<section id="project" class="fpsection">
 			  <div class="fpwrap project-wrap">
-			  	<!-- IMAGE -->
-			  	<div class="project-img-container">
-			  		<figure class="project-img"></figure>
-			  	</div><!-- class="project-img" -->
-			  	<div class="project-text">
-			  		<article class="project-text-items">
-				  		<span class="intro-text">El Proyecto</span>
-				  		<h1 class="section-title">WHO VISIT THE FINE CITY OF INDIANAPOLIS</h1>
-				  		<p class="section-desc">Teneo, inquit, finem illi videri nihil dolere. Tria genera bonorum; Tu quidem reddes; Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur.Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur.Quaesita enim virtus est, non quae relinqueret naturam, sed quae tueretur. Consequens enim est et post oritur, ut dixi. Igitur neque stultorum quisquam beatus neque sapientium non beatus.</p>
-				  		<div class="readmore-container">
-								<a href="#" class="readmore-btn">Más información</a>
-				  		</div>
-
-			  		</article><!-- class="project-text-items" -->
-			  	</div><!-- class="project-text" -->
+			  	<?php
+						$args = array(
+							'post_type'			=> 'page',
+							'pagename'			=> 'proyecto',
+							'post_status'		=> 'publish',
+						);
+						$query = new WP_Query($args);
+			  	?>
+					<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
+						<!-- IMAGE -->
+						<div class="project-img-container">
+							<figure class="project-img"></figure>
+						</div><!-- class="project-img" -->
+						<!-- TEXT -->
+						<div class="project-text">
+							<article class="project-text-items">
+								<span class="intro-text">El Proyecto</span>
+								<h1 class="section-title"><?php echo get_post_meta($post->ID, 'project_subtitle', true); ?></h1>
+								<p class="section-desc"><?php the_excerpt(); ?></p>
+								<div class="readmore-container">
+									<a href="<?php the_permalink(); ?>" class="readmore-btn">Más información</a>
+								</div>
+							</article><!-- class="project-text-items" -->
+						</div><!-- class="project-text" -->
+					<?php endwhile; endif; ?>
 
 			  </div><!-- class="project-wrap-wrap" -->
-			  <!-- BANNER -->
-			  <!-- <div class="banner">
-			  	<ul class="item-ul">
-			  		<li class="item-li">
-			  			<span><i class="fa fa-meetup" aria-hidden="true"></i></span>
-			  			<h2>Fase I</h2>
-			  			<p>Análisis, Aprendizajes e Intercambio de Experiencias</p>
-			  		</li>
-			  		<li class="item-li">
-			  			<span><i class="fa fa-map" aria-hidden="true"></i></span>
-			  			<h2>Fase II</h2>
-			  			<p>Sostenibilidad: Modelos y Planes de Negocio</p>
-			  		</li>
-			  		<li class="item-li">
-			  			<span><i class="fa fa-male" aria-hidden="true"></i></span>
-			  			<h2>Fase III</h2>
-			  			<p>Experiencia Piloto</p>
-			  		</li>
-			  		<li class="item-li">
-			  			<span><i class="fa fa-ravelry" aria-hidden="true"></i></span>
-			  			<h2>Fase IV</h2>
-			  			<p>Formación y Actividades Complementarias</p>
-			  		</li>
-			  	</ul><class="item-ul"
-			  </div> class="banner" -->
 			</section><!-- id="project" -->
 
 			<!-- LOS MEDIOS -->

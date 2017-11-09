@@ -13,14 +13,7 @@
 
 @include breakpoint($laptop) { //48em 768px
 
-	// SITE BRANDING
-	.site-branding {
-		margin-bottom: 0;
-		.wrap {
-			padding-left: 0px !important;
-		} //.wrap
-	} //.site-branding
-
+	// ORIGINAL STYLES
 	.has-header-image.pleiadesmoon-front-page .site-branding,
 	.has-header-video.pleiadesmoon-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,
@@ -80,6 +73,34 @@
 		font-size: 16px;
 		font-size: 1rem;
 	}
+	// SITE HEADER
+	.site-header {
+		// Custom Header
+		.custom-header {
+			margin-bottom: 0px !important;
+			.custom-header-media {
+				img {
+					// display: none;
+				} //img
+			} //.custom-header-media
+		} //.custom-header
+
+		// Navigation
+
+
+
+	} //.site-header
+
+
+	// SITE BRANDING
+	.site-branding {
+		margin-bottom: 0;
+		.wrap {
+			padding-left: 0px !important;
+		} //.wrap
+	} //.site-branding
+
+
 } //breakpoint($laptop) 48em 768px
 
 
