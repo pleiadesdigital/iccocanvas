@@ -50,7 +50,6 @@
 	/* PROYECTO */
 	.canvasfree {
 		.page-proyecto {
-
 			// ENTRY HEADER
 			.entry-header {
 				margin-bottom: 0px;
@@ -71,7 +70,6 @@
 					} //.entry-subtitle
 				} //.entry-header-wrap
 			} //.entry-header
-
 			// ENTRY CONTENT
 			.entry-content {
 				background-color: $snow;
@@ -96,7 +94,6 @@
 					} //.columntxt
 				} //.entry-content-wrap
 			} //.entry-content
-
 			// IMAGE SOLID
 			.image-solid {
 				margin: 0px;
@@ -104,8 +101,7 @@
 				width: 100%;
 				@include backImage($proyecto_img);
 			} //.image-solid
-
-			// additional CONTENT
+			// ADDITIONAL CONTENT
 			.more-content {
 				background-color: $snow;
 				padding: 4em 0px 3em;
@@ -114,20 +110,20 @@
 					padding: 0px 4em;
 					p, ul, ol {
 						font-weight: $light;
-					} //p
+					} //p, ul, ol
 					ol {
 						margin-left: 1em;
 						li {
 							font-weight: $bold;
-						}
-					}
+						} //li
+					} //ol
 					ul {
 						margin-left: 1.4em;
 						li {
 							list-style-type: square;
 							margin-bottom: 1em;
-						}
-					}
+						} //li
+					} //ul
 					.columntxt {
 						-webkit-column-count: 2;
 						-webkit-column-gap: 3em;
@@ -143,15 +139,195 @@
 					} //.columntxt
 				} //.more-content-wrap
 			} //.more-content
-
 		} //.page-proyecto
+	} //.canvasfree
 
-	/* EVENTOS */
 	/* LOS MEDIOS */
+	.canvasfree {
+		.page-medios {
+			// ENTRY HEADER
+			.entry-header {
+				margin-bottom: 0px;
+				.entry-header-wrap {
+					@include container();
+					padding: 2em 4em 2em;
+					.entry-title { //h1
+						font-weight: bold;
+					} //.entry-title
+					.entry-subtitle {
+						margin: 0px;
+						padding: 0px;
+						text-transform: uppercase;
+						font-weight: $light;
+						font-size: 20px;
+						font-size: 1.25rem;
+						color: $orange;
+					} //.entry-subtitle
+				} //.entry-header-wrap
+			} //.entry-header
+
+			// ENTRY CONTENT
+			.entry-content {
+				background-color: $snow;
+				padding: 2em 0px;
+
+				.entry-content-wrap {
+					@include container();
+					padding: 0px 4em;
+					p, ul, ol {
+						font-weight: $light;
+					} //p, ul, ol
+					ol {
+						margin-left: 1em;
+						li {
+							font-weight: $bold;
+						} //li
+					} //ol
+					ul {
+						margin-left: 1.4em;
+						li {
+							list-style-type: square;
+							margin-bottom: 1em;
+						} //li
+					} //ul
+					.columntxt {
+						column-count: 2;
+						column-gap: 3em;
+						column-rule-width: 1px;
+						column-rule-style: dotted;
+						column-rule-color: $lightgrey;
+						column-width: 300px;
+						h2 {
+							column-span: all;
+						} //h2
+					} //.columntxt
+				} //.entry-content-wrap
+			} //.entry-content
+		} //.page-medios
+	} //.canvasfree
+
+	/* APRENDIZAJES */
+	.canvasfree {
+		.page-aprendizajes {
+
+			// ENTRY HEADER
+			.entry-header {
+				margin-bottom: 0px;
+				.entry-header-wrap {
+					@include container();
+					padding: 2em 4em 2em;
+					.entry-title { //h1
+						font-weight: bold;
+					} //.entry-title
+					.entry-subtitle {
+						margin: 0px;
+						padding: 0px;
+						text-transform: uppercase;
+						font-weight: $light;
+						font-size: 20px;
+						font-size: 1.25rem;
+						color: $orange;
+					} //.entry-subtitle
+				} //.entry-header-wrap
+			} //.entry-header
+
+			// ENTRY CONTENT
+			.main-content {
+				background-color: $black;
+				@include backImage($aprendizajes_img);
+				.imgfilter {
+					padding: 3em 0px;
+					@include background-image(linear-gradient(top, rgba(0,0,0,0.2) 20%,rgba(0,0,0,0.6) 100%));
+					.entry-content-wrap {
+						@include container();
+						padding: 0px 4em;
+						p, ul, ol, a {
+							font-weight: $light;
+							color: $white;
+							@include single-text-shadow(0px, 1px, 0px, true, $carbon);
+						} //p, ul, ol
+						a {
+							text-decoration: none;
+						}
+						ol {
+							margin-left: 1em;
+							li {
+								font-weight: $bold;
+							} //li
+						} //ol
+						ul {
+							margin-left: 1.4em;
+							li {
+								list-style-type: square;
+								margin-bottom: 1em;
+							} //li
+						} //ul
+						.columntxt {
+							column-count: 2;
+							column-gap: 3em;
+							column-rule-width: 1px;
+							column-rule-style: dotted;
+							column-rule-color: $lightgrey;
+							column-width: 300px;
+							h2 {
+								column-span: all;
+							} //h2
+						} //.columntxt
+					} //.entry-content-wrap
+				} //.imgfilter
+			} //.entry-content
+
+			// MORE CONTENT 1
+			.video-content {
+				width: 100%;
+				padding: 4em 0px;
+				.video-content-wrap {
+					@include container();
+					padding: 0px;
+					// VIDEO
+					p {
+						padding: 0px !important;
+						margin: 0px !important;
+						line-height: 1;
+						iframe {
+							display: block;
+							margin: 0px auto;
+							width: 90%;
+							// height: 600px;
+							margin-bottom: 0px;
+							padding-bottom: 0px;
+						} //iframe
+					} //p
+
+					// VIDEO META
+					.video-meta {
+						padding: 0px 3em;
+						margin-bottom: 2em;
+						.entry-subtitle {
+							margin: 0px 0px 0.5em;
+							padding: 0px;
+							text-transform: uppercase;
+							font-weight: $normal;
+							font-size: 20px;
+							font-size: 1.25rem;
+							text-align: center;
+							color: $iccoblue;
+						} //.entry-subtitle
+						p {
+							font-weight: $light;
+							line-height: 1.4;
+							text-align: center;
+						} //p
+					} //.video-meta
+				} //.video-content-wrap
+			} //.more-content
+
+		} //.page-aprendizajes
+	} //.canvasfree
+
+
 	/* MODELO CANVAS */
 
-
-	} //.canvasfree
 
 } //breakpoint($laptop) 48em 768px
 
@@ -164,3 +340,25 @@
 @include breakpoint($largedesk) { //79em 1264px
 
 } //breakpoint($largedesk) 79em 1264px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

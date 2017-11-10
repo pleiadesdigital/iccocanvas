@@ -4,16 +4,12 @@
 <?php
   if (is_page('proyecto')) {
     $content_part = 'proyecto';
-  } elseif (is_page('acerca-de')) {
-    $content_part = 'about';
-  } elseif (is_page('soluciones') || $post->post_parent==34) {
-    $content_part = 'soluciones';
-  } elseif (is_page('catalogo')) {
-    $content_part = 'catalogo';
-  } elseif (is_page('partners')) {
-    $content_part = 'partners';
-  } elseif (is_page('portafolio')) {
-    $content_part = 'portfolio';
+  } elseif (is_page('aprendizajes')) {
+    $content_part = 'aprendizajes';
+  } elseif (is_page('los-medios')) {
+    $content_part = 'los-medios';
+  } elseif (is_page('modelo-canvas')) {
+    $content_part = 'modelo-canvas';
   } else {
     $content_part = 'page';
   }
