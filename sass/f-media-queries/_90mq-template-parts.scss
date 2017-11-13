@@ -277,7 +277,7 @@
 				} //.imgfilter
 			} //.entry-content
 
-			// MORE CONTENT 1
+			// VIDEO JUANITA LEÓN
 			.video-content {
 				width: 100%;
 				padding: 4em 0px;
@@ -321,6 +321,63 @@
 					} //.video-meta
 				} //.video-content-wrap
 			} //.more-content
+
+			// FUCK UP NIGHTS
+			.funights-content {
+				width: 100%;
+				background-color: $snow;
+				padding: 3em 0px;
+				@include filter-gradient(#E6E6E6, #FFFFFF, horizontal);
+				@include background-image(radial-gradient(top, ellipse cover, rgba(230, 230, 230, 1) 0%,rgba(255, 255, 255, 1) 100%));
+				.funights-content-wrap {
+					@include container();
+					min-height: 400px;
+					// CONTENT (CONTEXT)
+					.fun-context {
+						h2 {
+							margin: 0px 0px;
+					    padding: 0px;
+					    text-transform: uppercase;
+					    font-weight: $bold;
+					    font-size: 24px;
+					    font-size: 1.5rem;
+					    text-align: center;
+					    color: $carbon;
+						} //h2
+						h3 {
+							font-weight: $light;
+							font-style: italic;
+							font-size: 18px;
+							font-size: 1.125rem;
+							margin: 0px 3em;
+							padding: 0px;
+							text-align: center;
+							color: darken($orange, 10%);
+						} //h3
+						.columntxt {
+							margin-top: 2em;
+							-webkit-column-count: 3;
+							-webkit-column-gap: 1em;
+							-webkit-column-rule-width: 1px;
+							-webkit-column-rule-style: dotted;
+							-webkit-column-rule-color: $lightgrey;
+							column-count: 3;
+							column-gap: 2em;
+							column-rule-width: 1px;
+							column-rule-style: dashed;
+							column-rule-color: $orange;
+							p {
+								font-weight: $light;
+								font-size: 15px;
+								font-size: 0.9375rem;
+
+							} //p
+						} //.columntxt
+					} //.fun-context
+
+
+				} //.funights-content-wrap
+			} //.funights-content
 
 		} //.page-aprendizajes
 	} //.canvasfree

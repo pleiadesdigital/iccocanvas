@@ -5134,6 +5134,74 @@ F. Media Queries
     line-height: 1.4;
     text-align: center;
   }
+  /* line 326, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .funights-content {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 3em 0px;
+    *zoom: 1;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFE6E6E6', endColorstr='#FFFFFFFF');
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZTZlNmU2Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+    background-size: 100%;
+    background-image: -moz-radial-gradient(top, ellipse cover, #e6e6e6 0%, #ffffff 100%);
+    background-image: -webkit-radial-gradient(top, ellipse cover, #e6e6e6 0%, #ffffff 100%);
+    background-image: radial-gradient(ellipse cover at top, #e6e6e6 0%, #ffffff 100%);
+  }
+  /* line 332, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 400px;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 337, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context h2 {
+    margin: 0px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333333;
+  }
+  /* line 347, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context h3 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    font-size: 1.125rem;
+    margin: 0px 3em;
+    padding: 0px;
+    text-align: center;
+    color: #bd640a;
+  }
+  /* line 357, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context .columntxt {
+    margin-top: 2em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1em;
+    -webkit-column-rule-width: 1px;
+    -webkit-column-rule-style: dotted;
+    -webkit-column-rule-color: gray;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule-width: 1px;
+    column-rule-style: dashed;
+    column-rule-color: #ee7d0c;
+  }
+  /* line 369, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context .columntxt p {
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
 
   /* MODELO CANVAS */
 }
