@@ -4973,11 +4973,11 @@ F. Media Queries
   }
 
   /* APRENDIZAJES */
-  /* line 214, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 213, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .entry-header {
     margin-bottom: 0px;
   }
-  /* line 216, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 215, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .entry-header .entry-header-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -4990,11 +4990,11 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 219, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 218, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .entry-header .entry-header-wrap .entry-title {
     font-weight: bold;
   }
-  /* line 222, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 221, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .entry-header .entry-header-wrap .entry-subtitle {
     margin: 0px;
     padding: 0px;
@@ -5004,7 +5004,7 @@ F. Media Queries
     font-size: 1.25rem;
     color: #ee7d0c;
   }
-  /* line 235, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 234, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content {
     background-color: #000000;
     background-image: url("http://localhost/~ronyortiz/sites2017/iccocanvas/wp-content/themes/iccocanvas/assets/images/pages/aprendizajes-backimage.jpg");
@@ -5016,7 +5016,7 @@ F. Media Queries
     -o-background-size: cover;
     background-size: cover;
   }
-  /* line 238, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 237, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter {
     padding: 3em 0px;
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4yIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -5026,7 +5026,7 @@ F. Media Queries
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.6) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.6) 100%);
   }
-  /* line 241, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 240, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap {
     max-width: 1000px;
     margin-left: auto;
@@ -5039,35 +5039,35 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 244, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 243, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap p, .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap ul, .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap ol, .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap a {
     font-weight: 300;
     color: #FFFFFF;
     text-shadow: 0px 1px 0px #333333;
     text-shadow: 0px 1px 0px true #333333;
   }
-  /* line 249, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 248, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap a {
     text-decoration: none;
   }
-  /* line 252, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 251, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap ol {
     margin-left: 1em;
   }
-  /* line 254, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 253, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap ol li {
     font-weight: 600;
   }
-  /* line 258, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 257, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap ul {
     margin-left: 1.4em;
   }
-  /* line 260, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 259, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap ul li {
     list-style-type: square;
     margin-bottom: 1em;
   }
-  /* line 265, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 264, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap .columntxt {
     column-count: 2;
     column-gap: 3em;
@@ -5076,13 +5076,14 @@ F. Media Queries
     column-rule-color: gray;
     column-width: 300px;
   }
-  /* line 272, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 271, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .main-content .imgfilter .entry-content-wrap .columntxt h2 {
     column-span: all;
   }
-  /* line 281, sass/f-media-queries/_90mq-template-parts.scss */
+  /* line 280, sass/f-media-queries/_90mq-template-parts.scss */
   .canvasfree .page-aprendizajes .video-content {
     width: 100%;
+    height: auto;
     padding: 4em 0px;
   }
   /* line 284, sass/f-media-queries/_90mq-template-parts.scss */
@@ -5099,16 +5100,14 @@ F. Media Queries
     clear: both;
   }
   /* line 288, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .video-content .video-content-wrap p {
-    padding: 0px !important;
-    margin: 0px !important;
-    line-height: 1;
+  .canvasfree .page-aprendizajes .video-content .video-content-wrap .the-video {
+    display: block;
+    height: auto;
   }
-  /* line 292, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .video-content .video-content-wrap p iframe {
+  /* line 291, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .video-content .video-content-wrap .the-video iframe {
     display: block;
     margin: 0px auto;
-    width: 90%;
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
@@ -5134,11 +5133,11 @@ F. Media Queries
     line-height: 1.4;
     text-align: center;
   }
-  /* line 326, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .funights-content {
-    width: 100%;
+  /* line 328, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context {
     background-color: #f2f2f2;
     padding: 3em 0px;
+    width: 100%;
     *zoom: 1;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFE6E6E6', endColorstr='#FFFFFFFF');
     background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjAlIiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZTZlNmU2Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
@@ -5147,21 +5146,21 @@ F. Media Queries
     background-image: -webkit-radial-gradient(top, ellipse cover, #e6e6e6 0%, #ffffff 100%);
     background-image: radial-gradient(ellipse cover at top, #e6e6e6 0%, #ffffff 100%);
   }
-  /* line 332, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap {
+  /* line 334, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .fun-context-wrap {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     min-height: 400px;
   }
   /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap:after {
+  .canvasfree .page-aprendizajes .fun-content .fun-context .fun-context-wrap:after {
     content: " ";
     display: block;
     clear: both;
   }
-  /* line 337, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context h2 {
+  /* line 338, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context h2 {
     margin: 0px 0px;
     padding: 0px;
     text-transform: uppercase;
@@ -5171,8 +5170,8 @@ F. Media Queries
     text-align: center;
     color: #333333;
   }
-  /* line 347, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context h3 {
+  /* line 348, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context h3 {
     font-weight: 300;
     font-style: italic;
     font-size: 18px;
@@ -5182,8 +5181,8 @@ F. Media Queries
     text-align: center;
     color: #bd640a;
   }
-  /* line 357, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context .columntxt {
+  /* line 358, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt {
     margin-top: 2em;
     -webkit-column-count: 3;
     -webkit-column-gap: 1em;
@@ -5195,12 +5194,90 @@ F. Media Queries
     column-rule-width: 1px;
     column-rule-style: dashed;
     column-rule-color: #ee7d0c;
+    height: auto;
   }
-  /* line 369, sass/f-media-queries/_90mq-template-parts.scss */
-  .canvasfree .page-aprendizajes .funights-content .funights-content-wrap .fun-context .columntxt p {
+  /* line 371, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt h3 {
+    text-align: left;
+    margin: 0px 0px 0.5em;
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  /* line 377, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt h4 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #162541;
+  }
+  /* line 385, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt p {
     font-weight: 300;
     font-size: 15px;
     font-size: 0.9375rem;
+    margin-top: 0px;
+    margin-bottom: 0.75em;
+  }
+  /* line 392, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt ol, .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt ul {
+    padding-left: 0.75em;
+    margin-top: 0px;
+    margin-bottom: 1em;
+  }
+  /* line 396, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt ol li, .canvasfree .page-aprendizajes .fun-content .fun-context .columntxt ul li {
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    margin-bottom: 0.5em;
+  }
+  /* line 406, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events {
+    background-color: #FFFFFF;
+    padding: 3em 0px;
+  }
+  /* line 409, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events .fun-events-wrap {
+    min-height: 400px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+  }
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events .fun-events-wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  /* line 415, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events .fun-events-wrap .event-row {
+    width: 45%;
+  }
+  /* line 417, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events .fun-events-wrap .event-row h2 {
+    text-align: center;
+    color: #ee7d0c;
+    font-size: 20px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+  /* line 424, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events .fun-events-wrap .event-row p {
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin: 0px 3em 1em;
+    text-align: justify;
+  }
+  /* line 431, sass/f-media-queries/_90mq-template-parts.scss */
+  .canvasfree .page-aprendizajes .fun-content .fun-events .fun-events-wrap .event-row .event-video {
+    margin-top: 1em;
+    padding: 2em;
   }
 
   /* MODELO CANVAS */

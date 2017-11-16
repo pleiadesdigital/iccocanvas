@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
 				"get_the_post",
 				"get_the_post_thumbnail_url"
 			],
 			[
 				"wp_get_atta",
 				"wp_get_attachment_url"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"get_post",
@@ -124,10 +132,6 @@
 				"sum"
 			],
 			[
-				"marg",
-				"margin-left"
-			],
-			[
 				"ba",
 				"background-position"
 			],
@@ -168,19 +172,20 @@
 	"buffers":
 	[
 		{
-			"file": "front-page.php",
+			"file": "template-parts/page/content-aprendizajes.php",
 			"settings":
 			{
-				"buffer_size": 5564,
+				"buffer_size": 3192,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "functions.php",
+			"file": "sass/f-media-queries/_90mq-template-parts.scss",
 			"settings":
 			{
-				"buffer_size": 10208,
+				"buffer_size": 8869,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -241,14 +246,16 @@
 	],
 	"file_history":
 	[
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_8mq-frontpage.scss",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/front-page.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/page/content-aprendizajes.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_90mq-template-parts.scss",
+		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Happy happy joy joy 2.tmTheme",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_3mq-footer.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/h-variables/_colors.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/front-page.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/functions.php",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_8mq-frontpage.scss",
+		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_90mq-template-parts.scss",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/page-canvasfree.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/page/content-los-medios.php",
-		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Happy happy joy joy 2.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Mac Classic.tmTheme",
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Last Night.tmTheme",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/b-layout/_footer.scss",
@@ -263,7 +270,6 @@
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/header/header-image.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/inc/custom-header.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/inc/icon-functions.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/functions.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/template-parts/navigation/navigation-topfp.php",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/zSandBox",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/index.php",
@@ -285,7 +291,6 @@
 		"/Users/ronyortiz/Library/Application Support/Sublime Text 3/Packages/User/Pastie.tmTheme",
 		"/Users/ronyortiz/Sites/training2017/jsfunctions/chap2/script.js",
 		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/footer.php",
-		"/Users/ronyortiz/Sites/sites2017/iccocanvas/wp-content/themes/iccocanvas/sass/f-media-queries/_3mq-footer.scss",
 		"/Users/ronyortiz/Desktop/front-page.php",
 		"/Users/ronyortiz/Sites/sites2017/acompas/wp-content/themes/pleiades17/sass/f-media-queries/_mq_pages.scss",
 		"/Users/ronyortiz/Sites/sites2017/acompas/wp-content/themes/pleiades17/sass/f-media-queries/_mq_footer.scss",
@@ -359,19 +364,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "front-page.php",
+					"file": "template-parts/page/content-aprendizajes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5564,
+						"buffer_size": 3192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2490,
-								2490
+								2303,
+								2303
 							]
 						],
 						"settings":
@@ -382,30 +387,20 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										2493,
-										2494
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"region.greenish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										2467,
-										2468
-									]
 								},
 								"unmatched":
 								{
+									"1":
+									[
+										2437,
+										2445
+									]
 								}
 							},
 							"bracket_highlighter.regions":
@@ -415,86 +410,85 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"bs_sintax": "php",
-							"buffer_scroll_name": "5ed01c83",
-							"history_list_is_closing": true,
+							"buffer_scroll_name": "6c0b93c2",
 							"spell_check": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 284.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "functions.php",
+					"file": "sass/f-media-queries/_90mq-template-parts.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10208,
+						"buffer_size": 8869,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4319,
-								4319
+								433,
+								433
 							]
 						],
 						"settings":
@@ -506,8 +500,8 @@
 								{
 									"1":
 									[
-										4443,
-										4444
+										435,
+										436
 									]
 								},
 								"icon":
@@ -522,8 +516,135 @@
 								{
 									"1":
 									[
-										4318,
-										4319
+										28,
+										29
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "ba6a26ce",
+							"spell_check": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1009.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "sass/f-media-queries/_90mq-template-parts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								433
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										435,
+										436
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										28,
+										29
 									]
 								},
 								"unmatched":
@@ -537,65 +658,65 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
-							"bs_sintax": "php",
-							"buffer_scroll_name": "c79b8c10",
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "ba6a26ce",
 							"spell_check": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1009.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -621,11 +742,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.537637246622,
 			1.0
 		],
 		"rows":
@@ -684,7 +812,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 241.0,
 	"status_bar_visible": true,
 	"template_settings":
