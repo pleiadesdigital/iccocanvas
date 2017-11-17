@@ -47,6 +47,17 @@
 		}
 	} //.page-template-page-canvasfree
 
+	// DROP CAP
+	.firstchar {
+		float: left;
+		font-size: 75px;
+		font-size: 4.6875rem;
+		line-height: 60px;
+		padding-top: 4px;
+		padding-right: 8px;
+		padding-left: 0px;
+	}
+
 	/* PROYECTO */
 	.canvasfree {
 		.page-proyecto {
@@ -165,7 +176,6 @@
 					} //.entry-subtitle
 				} //.entry-header-wrap
 			} //.entry-header
-
 			// ENTRY CONTENT
 			.entry-content {
 				background-color: $snow;
@@ -191,20 +201,176 @@
 						} //li
 					} //ul
 					.columntxt {
-						column-count: 2;
+						column-count: 3;
 						column-gap: 3em;
 						column-rule-width: 1px;
 						column-rule-style: dotted;
 						column-rule-color: $lightgrey;
-						column-width: 300px;
+						// column-width: 300px;
 						h2 {
-							column-span: all;
+							//column-span: all;
 						} //h2
+						p {
+							font-size: 15px;
+							font-size: 0.9375rem;
+							margin-bottom: 0.5em;
+						} //p
 					} //.columntxt
 				} //.entry-content-wrap
 			} //.entry-content
+			// IMAGE SOLID
+			.image-solid {
+				margin: 0px;
+				height: 300px;
+				width: 100%;
+				@include backImage($medios_img);
+			} //.image-solid
+
+			// ESTUDIO DE CASOS
+			.estudio-de-casos {
+				min-height: 400px;
+				.estudio-de-casos-wrap {
+					@include container();
+					display: block;
+					height: 100%;
+					//TITLE
+					h2 {
+						margin: 0px 0px;
+				    padding: 0px;
+				    text-transform: uppercase;
+				    font-weight: $bold;
+				    font-size: 24px;
+				    font-size: 1.5rem;
+				    text-align: center;
+				    color: $carbon;
+					} //h2
+					h3 {
+						font-weight: $light;
+						font-style: italic;
+						font-size: 18px;
+						font-size: 1.125rem;
+						margin: 0px 3em;
+						padding: 0px;
+						text-align: center;
+						color: darken($orange, 10%);
+					} //h3
+					// LOGO BOXES
+					.case-boxes { //ul
+						margin: 2em 0px 0px;
+						padding: 0px;
+						list-style: none;
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-around;
+						li {
+							width: 30%;
+							height: auto;
+							margin-bottom: 2em;
+							padding: 2em 1.5em;
+							background-color: $white;
+							@include border-radius(4px);
+							@include single-box-shadow(1px, 1px, 3px, null, #B3B3B3, null);
+							.box-content { //a
+								h2 {
+									margin: 0px;
+									padding: 0px;
+									font-weight: $bold;
+									font-size: 20px;
+									font-size: 1.25rem;
+									line-height: 1;
+									@include single-transition(color, 0.2s, linear, false);
+								} //h2
+								&:hover,
+								&:focus {
+									h2 {
+										color: darken($orange, 5%);
+									}
+								} //&:hover, &:focus
+								p {
+									font-size: 14px;
+									font-size: 0.875rem;
+									font-weight: $light;
+									line-height: 1.5;
+									margin-top: 0.5em;
+									margin-bottom: 1em;
+									text-align: justify;
+								} //p
+							} //.box-content
+							.case-web {
+								display: block;
+								text-align: center;
+								font-size: 14px;
+								font-size: 0.875rem;
+								color: $darkgrey;
+								@include single-transition(color, 0.2s, linear, false);
+								&:hover,
+								&:focus {
+									color: darken($orange, 5%);
+								}
+							} //.case-web
+						} //li
+					} //.case-boxes
+
+				} //.estudio-de-casos-wrap
+			} //.estudio-de-casos
+
+			// LOGOS PARTNERS
+			.logos-partners {
+				background-color: $carbon;
+				// @include background-image(linear-gradient(top, #000000 0%,#45484d 100%));
+				@include background-image(radial-gradient(center, ellipse cover, #141414 0%,#45484d 100%));
+				.logos-partners-wrap {
+					@include container();
+					display: block;
+					min-height: 400px;
+					//TITLE
+					h2 {
+						margin: 0px 0px;
+				    padding: 0px;
+				    text-transform: uppercase;
+				    font-weight: $bold;
+				    font-size: 24px;
+				    font-size: 1.5rem;
+				    text-align: center;
+				    color: $midsilver;
+					} //h2
+					h3 {
+						font-weight: $light;
+						font-style: italic;
+						font-size: 18px;
+						font-size: 1.125rem;
+						margin: 0px 3em;
+						padding: 0px;
+						text-align: center;
+						color: lighten($orange, 10%);
+					} //h3
+					// LOGO BOXES
+					.logo-boxes { //ul
+						margin: 2em 0px 0px;
+						padding: 0px;
+						list-style: none;
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-around;
+						li {
+							border: 1px solid $snow;
+							display: block;
+							width: 30%;
+							height: 200px;
+							margin-bottom: 2em;
+							color: $white;
+						} //li
+					} //.logo-boxes
+
+
+
+				} //.logos-partners-wrap
+			} //.logos-partners
+
 		} //.page-medios
 	} //.canvasfree
+
+
 
 	/* APRENDIZAJES */
 	.canvasfree {
