@@ -317,12 +317,12 @@
 			// LOGOS PARTNERS
 			.logos-partners {
 				background-color: $carbon;
-				// @include background-image(linear-gradient(top, #000000 0%,#45484d 100%));
 				@include background-image(radial-gradient(center, ellipse cover, #141414 0%,#45484d 100%));
 				.logos-partners-wrap {
 					@include container();
 					display: block;
 					min-height: 400px;
+					padding: 1em;
 					//TITLE
 					h2 {
 						margin: 0px 0px;
@@ -346,19 +346,21 @@
 					} //h3
 					// LOGO BOXES
 					.logo-boxes { //ul
-						margin: 2em 0px 0px;
+						margin: 3em 0px 0px;
 						padding: 0px;
 						list-style: none;
 						display: flex;
 						flex-wrap: wrap;
-						justify-content: space-around;
+						justify-content: center;
 						li {
 							border: 1px solid $snow;
 							display: block;
-							width: 30%;
-							height: 200px;
 							margin-bottom: 2em;
-							color: $white;
+							margin-right: 3em;
+							img {
+								height: 150px;
+								width: 150px;
+							} //img
 						} //li
 					} //.logo-boxes
 

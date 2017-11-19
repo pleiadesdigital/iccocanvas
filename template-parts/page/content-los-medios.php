@@ -17,8 +17,8 @@
 		</div><!-- class="entry-content-wrap" -->
 	</section><!-- .entry-content .main-content -->
 
+	<!-- IMAGE SOLID -->
 	<div class="image-solid"></div>
-
 
 	<!-- ESTUDIO DE CASOS -->
 	<section class="entry-content estudio-de-casos">
@@ -30,7 +30,7 @@
 				$args = array(
 					'post_type'					=> 'post',
 					'category_name'			=> 'estudio-de-casos',
-					'orderby'						=> 'date',
+					'order'						=> 'ASC',
 				);
 				$query = new WP_Query($args);
 				if($query->have_posts()) : while($query->have_posts()): $query->the_post(); ?>
@@ -69,11 +69,25 @@
 				<?php //the_content(); ?>
 
 					<li>
-						<h2>Quartz</h2>
-						<span class="case-site">https://qz.com/</span>
-						<p>Temas de economía mundial y negocios para ejecutivos. Foco en hacer atractiva la información, principalmente en móviles. Visualización de datos y creación/venta de herramientas de manejo de datos.
-Modalidades controladas de extensión de los artículos. Atracción de anunciantes-marcas globales. Modalidades controladas de banners.
-						</p>
+						<a href="http://memetic.media/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/memeticmedia.png"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/contagioradio/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/contagioradio.png"></a>
+					</li>
+					<li>
+						<a href="https://elfaro.net/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/elfaro.jpg"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/EnLatitud25/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/enlatitud5.png"></a>
+					</li>
+					<li>
+						<a href="https://lapublica.org.bo/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/lapublica.png"></a>
+					</li>
+					<li>
+						<a href="http://lasillavacia.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/lasillavacia.png"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/picatv/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/media/logos/picatv.jpg"></a>
 					</li>
 
 				</ul><!-- class="logo-boxes" -->
